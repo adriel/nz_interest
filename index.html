@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savings Interest Rates</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .source-text {
+      font-size: 1.5em;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .source-text a {
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: normal;
+    }
+
+    .source-text a:hover {
+      text-decoration: underline;
+    }
+
+    .modern-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin: 20px 0;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .modern-table th {
+      background: #f8f9fa;
+      padding: 12px 15px;
+      text-align: left;
+      font-weight: 600;
+      color: #343a40;
+      border-bottom: 2px solid #dee2e6;
+    }
+
+    .modern-table td {
+      text-align: left;
+      padding: 12px 15px;
+      border-bottom: 1px solid #eee;
+      color: #495057;
+    }
+
+    .modern-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .modern-table tr:hover {
+      background-color: #f8f9fa;
+    }
+
+    .rate-cell {
+      font-weight: 600;
+      color: #2b5797;
+    }
+
+    #sortable-table thead th,
+    #filter-form label,
+    input[type="checkbox" i] {
+      cursor: pointer;
+    }
+
+    #filter-form {
+      margin-left: auto;
+      /* margin: 20px 0; */
+      display: flex;
+      align-items: center;
+      /* justify-content: flex-end; */
+      /* flex-direction: row; */
+    }
+
+    #filter-form label {
+      margin-right: 10px;
+      padding: 5px;
+    }
+
+    .loading {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    
+    #filter-container {
+      margin: 20px 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+    }
+    
+    #institution-search {
+      padding: 8px 12px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      /* justify-content: flex-start; */
+    }
+    
+    .filter-separator {
+      margin: 0 10px;
+      font-weight: bold;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <h2 class="source-text">
+    Compare savings interest rates - data thanks to <a href="https://www.interest.co.nz/" target="_blank">interest.co.nz</a>
+  </h2>
+
+  
+  <div id="filter-container">
+    <div class="search-container">
+      <input type="text" id="institution-search" placeholder="Search for institution...">
+    </div>
+    <div id="loading" class="loading">Loading data...</div>
+  </div>
+  <table class="modern-table">
+    <thead>
+      <tr>
+        <th>Institution</th>
+        <th>Rating</th>
+        <th>Account Type</th>
+        <th>Min. Deposit</th>
+        <th>Interest Rate</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <!-- Data will be loaded here -->
+    </tbody>
+  </table>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", async function() {
+      // Fetch the CSV data
+      const csvUrl = 'https://tvdown.co/interest/combined_interest_rates.csv';
+
+      try {
+        const response = await fetch(csvUrl);
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch CSV: ${response.status} ${response.statusText}`);
+        }
+
+        const csvText = await response.text();
+        processData(csvText);
+      } catch (error) {
+        console.error('Error fetching or processing data:', error);
+        document.getElementById('loading').textContent = 'Error loading data. Please try again later.';
+      }
+    });
+
+    // Parse CSV text to array of objects
+    function parseCSV(csvText) {
+      const lines = csvText.split('\n').filter(line => line.trim());
+      const headers = lines[0].split(',').map(header => header.trim().replace(/^"|"$/g, ''));
+
+      const result = [];
+
+      for (let i = 1; i < lines.length; i++) {
+        // Handle commas within quoted fields
+        const row = [];
+        let insideQuotes = false;
+        let currentValue = '';
+
+        for (let char of lines[i]) {
+          if (char === '"') {
+            insideQuotes = !insideQuotes;
+          } else if (char === ',' && !insideQuotes) {
+            row.push(currentValue.replace(/^"|"$/g, ''));
+            currentValue = '';
+          } else {
+            currentValue += char;
+          }
+        }
+
+        // Add the last value
+        row.push(currentValue.replace(/^"|"$/g, ''));
+
+        // Skip rows with incorrect number of columns
+        if (row.length === headers.length) {
+          const rowObj = {};
+          headers.forEach((header, index) => {
+            rowObj[header] = row[index];
+          });
+          result.push(rowObj);
+        }
+      }
+
+      return result;
+    }
+
+    // Store the original data globally so we can reference it for filtering
+    let originalData = [];
+
+    function processData(csvText) {
+      // Parse CSV
+      const data = parseCSV(csvText);
+
+      // Remove duplicates
+      const uniqueData = removeDuplicates(data);
+
+      // Store original data for filtering
+      originalData = uniqueData;
+
+      // Sort by interest rate (highest first)
+      const sortedData = sortByInterestRate(uniqueData);
+
+      // Extract unique titles for filtering
+      const titles = [...new Set(sortedData.map(row => rtrim(row['Title'], 's')))];
+
+      // Generate filter checkboxes
+      generateFilterForm(titles);
+
+      // Populate table
+      populateTable(sortedData);
+
+      // Hide loading message
+      document.getElementById('loading').style.display = 'none';
+
+      // Set up filter functionality
+      setupFilterHandlers(sortedData);
+      
+      // Set up institution search
+      setupInstitutionSearch();
+    }
+
+    function rtrim(str, char) {
+      if (str.endsWith(char)) {
+        return str.slice(0, -1);
+      }
+      return str;
+    }
+
+    function removeDuplicates(data) {
+      // Use Map to track unique entries
+      const seen = new Map();
+      return data.filter(item => {
+        // Create a string key for comparison
+        const key = JSON.stringify(item);
+        if (seen.has(key)) {
+          return false;
+        }
+        seen.set(key, true);
+        return true;
+      });
+    }
+
+    function sortByInterestRate(data) {
+      return [...data].sort((a, b) => {
+        const rateA = parseFloat(a['Interest rate %'].replace(',', ''));
+        const rateB = parseFloat(b['Interest rate %'].replace(',', ''));
+        return rateB - rateA;
+      });
+    }
+
+    function generateFilterForm(titles) {
+      const filterContainer = document.getElementById('filter-container');
+      const form = document.createElement('form');
+      form.id = 'filter-form';
+
+      // Add title checkboxes
+      titles.forEach(title => {
+        const label = document.createElement('label');
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.className = 'filter-checkbox';
+        checkbox.value = title;
+        checkbox.checked = true;
+
+        label.appendChild(checkbox);
+        label.appendChild(document.createTextNode(' ' + title + ' '));
+        form.appendChild(label);
+      });
+
+      // Add separator
+      const separator = document.createElement('span');
+      separator.className = 'filter-separator';
+      separator.textContent = '|';
+      form.appendChild(separator);
+
+      // Add Notice Saver filter
+      const noticeLabel = document.createElement('label');
+
+      const noticeCheckbox = document.createElement('input');
+      noticeCheckbox.type = 'checkbox';
+      noticeCheckbox.className = 'filter-checkbox';
+      noticeCheckbox.value = 'notice_saver';
+      noticeCheckbox.checked = true;
+
+      noticeLabel.appendChild(noticeCheckbox);
+      noticeLabel.appendChild(document.createTextNode(' Hide Notice Saver '));
+      form.appendChild(noticeLabel);
+
+      filterContainer.appendChild(form);
+    }
+
+    function populateTable(data) {
+      const tableBody = document.getElementById('table-body');
+      tableBody.innerHTML = '';
+
+      data.forEach(row => {
+        const trimmedTitle = rtrim(row['Title'], 's');
+
+        const tr = document.createElement('tr');
+        tr.className = 'data-row';
+        tr.setAttribute('data-title', trimmedTitle);
+        tr.setAttribute('data-institution', row['Institution'].toLowerCase());
+
+        // Institution column
+        const tdInstitution = document.createElement('td');
+        tdInstitution.textContent = `${row['Institution']} (${trimmedTitle})`;
+        tr.appendChild(tdInstitution);
+
+        // Rating column
+        const tdRating = document.createElement('td');
+        tdRating.textContent = row['Credit Rating'];
+        tr.appendChild(tdRating);
+
+        // Account Type column
+        const tdAccount = document.createElement('td');
+        tdAccount.textContent = row['Account type'];
+        tr.appendChild(tdAccount);
+
+        // Min Deposit column
+        const tdDeposit = document.createElement('td');
+        tdDeposit.textContent = '$' + row['Minimum deposit $'].replace('$', '');
+        tr.appendChild(tdDeposit);
+
+        // Interest Rate column
+        const tdRate = document.createElement('td');
+        tdRate.className = 'rate-cell';
+        tdRate.textContent = row['Interest rate %'] + '%';
+        tr.appendChild(tdRate);
+
+        tableBody.appendChild(tr);
+      });
+    }
+
+    function setupFilterHandlers(data) {
+      const checkboxes = document.querySelectorAll(".filter-checkbox");
+
+      // Load saved selections from localStorage
+      const savedFilters = JSON.parse(localStorage.getItem("selectedFilters")) || [];
+
+      // Restore checkbox states
+      checkboxes.forEach(checkbox => {
+        if (savedFilters.length === 0) {
+          checkbox.checked = true; // Default all checked if no saved filters
+        } else if (savedFilters.includes(checkbox.value)) {
+          checkbox.checked = true;
+        } else {
+          checkbox.checked = false;
+        }
+      });
+
+      // Get current checked values
+      const initialCheckedValues = Array.from(checkboxes)
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+
+      // Apply initial filtering
+      applyFilter(initialCheckedValues);
+
+      // Set up change event handlers
+      checkboxes.forEach(checkbox => {
+        checkbox.addEventListener("change", function() {
+          // Get all checked values
+          const checkedValues = Array.from(checkboxes)
+            .filter(cb => cb.checked)
+            .map(cb => cb.value);
+
+          // Save to localStorage
+          localStorage.setItem("selectedFilters", JSON.stringify(checkedValues));
+
+          // Apply filtering
+          applyFilter(checkedValues);
+        });
+      });
+    }
+    
+    function setupInstitutionSearch() {
+      const searchInput = document.getElementById('institution-search');
+      
+      searchInput.addEventListener('input', function() {
+        const searchText = this.value.toLowerCase();
+        
+        // Get current checked checkbox values
+        const checkboxes = document.querySelectorAll(".filter-checkbox");
+        const checkedValues = Array.from(checkboxes)
+          .filter(cb => cb.checked)
+          .map(cb => cb.value);
+        
+        // Apply both filters
+        applyFilters(checkedValues, searchText);
+      });
+    }
+    
+    function applyFilters(checkedValues, searchText = '') {
+      const rows = document.querySelectorAll(".data-row");
+
+      rows.forEach(row => {
+        const accountType = row.children[2].textContent.trim();
+        const isNoticeSaver = /^notice\s*saver/i.test(accountType);
+        const shouldHideNoticeSaver = checkedValues.includes("notice_saver") && isNoticeSaver;
+        const institutionName = row.getAttribute("data-institution");
+        const matchesSearch = searchText === '' || institutionName.includes(searchText.toLowerCase());
+
+        if (shouldHideNoticeSaver || !matchesSearch) {
+          row.style.display = "none";
+        } else if (checkedValues.includes(row.getAttribute("data-title"))) {
+          row.style.display = "table-row";
+        } else {
+          row.style.display = "none";
+        }
+      });
+    }
+
+    function applyFilter(checkedValues) {
+      // Get current search text
+      const searchText = document.getElementById('institution-search').value.toLowerCase();
+      
+      // Apply both filters
+      applyFilters(checkedValues, searchText);
+    }
+  </script>
+</body>
+
+</html>
