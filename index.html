@@ -150,8 +150,8 @@
     </tbody>
   </table>
   
-  <footer id="footer">
-      data last changed on <span id="lastUpdated">Loading...</span>
+  <footer>
+      data last changed on <span id="last-updated">Loading...</span>
   </footer>
 
   <script>
@@ -180,10 +180,10 @@
             const formattedDate = `${day} ${month} ${year}, ${hour}`;
             
             // Update footer content
-            document.getElementById("lastUpdated").textContent = formattedDate;
+            document.getElementById("last-updated").textContent = formattedDate;
         } catch (error) {
             console.error("Error fetching timestamp:", error);
-            document.getElementById("lastUpdated").textContent = "Unavailable";
+            document.getElementById("last-updated").textContent = "Unavailable";
         }
     }
 
