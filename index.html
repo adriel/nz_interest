@@ -116,6 +116,10 @@
       font-weight: bold;
       color: #666;
     }
+
+    footer {
+      color: #4c717d
+    }
   </style>
 </head>
 
@@ -145,8 +149,48 @@
       <!-- Data will be loaded here -->
     </tbody>
   </table>
+  
+  <footer id="footer">
+      data last changed on <span id="lastUpdated">Loading...</span>
+  </footer>
 
   <script>
+
+    async function fetchAndDisplayTimestamp() {
+        try {
+            // Fetch the timestamp file
+            const response = await fetch("timestamp.txt");
+            if (!response.ok) throw new Error("Failed to fetch timestamp");
+            // Get text content (assumes the file contains an ISO 8601 timestamp)
+            const isoTimestamp = await response.text();
+            const parsedDate = new Date(isoTimestamp.trim()); // Convert to Date object
+            
+            // Get date components for New Zealand timezone
+            const nzOptions = { timeZone: "Pacific/Auckland" };
+            const day = new Intl.DateTimeFormat("en-NZ", { day: "numeric", ...nzOptions }).format(parsedDate);
+            const month = new Intl.DateTimeFormat("en-NZ", { month: "long", ...nzOptions }).format(parsedDate);
+            const year = new Intl.DateTimeFormat("en-NZ", { year: "numeric", ...nzOptions }).format(parsedDate);
+            
+            // Format time (handle AM/PM display)
+            let hour = parsedDate.toLocaleString("en-NZ", { hour: "numeric", hour12: true, ...nzOptions });
+            // Clean up the hour format to match "2 pm" format
+            hour = hour.replace(":00", "");
+                        
+            // Construct the final formatted date
+            const formattedDate = `${day} ${month} ${year}, ${hour}`;
+            
+            // Update footer content
+            document.getElementById("lastUpdated").textContent = formattedDate;
+        } catch (error) {
+            console.error("Error fetching timestamp:", error);
+            document.getElementById("lastUpdated").textContent = "Unavailable";
+        }
+    }
+
+    // Run the function when the page loads
+    fetchAndDisplayTimestamp();
+
+
     document.addEventListener("DOMContentLoaded", async function() {
       // Fetch the CSV data
       const csvUrl = 'combined_interest_rates.csv';
