@@ -82,7 +82,7 @@ Brokers,Jarden,,Cash Mangement Trust,"$50,000",3.60
 Brokers,Jarden,,Cash Mangement Trust,"$200,000",3.75
 Brokers,Jarden,,Cash Mangement Trust,"$1,000,000",4.15
 Brokers,Jarden,,Cash Mangement Trust,"$3,000,000",4.25
-Fund Managers,Debut,,Universal Interest,0,3.80%
+Fund Managers,Debut,,Universal Interest,$0,3.80
 Banks,ANZ,AA-,Online savings,$1,1.00
 Banks,ASB,AA-,FastSaver,$1,1.50
 Banks,ASB,AA-,Savings On Call,$1,1.15
@@ -118,4 +118,4 @@ Fund Managers,Booster,,Savvy,$1,3.75
 Fund Managers,Dosh,,Strives,$1,3.60
 Fund Managers,Kernel Wealth,,Smart Saver,$1,3.30
 Fund Managers,Sharesies,,Save,$1,2.85
-Fund Managers,Debut,,Universal Interest,0,3.80%
+Fund Managers,Debut,,Universal Interest,$0,3.80
