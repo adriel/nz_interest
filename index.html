@@ -117,6 +117,10 @@
       color: #666;
     }
 
+    .institution-type {
+      color: #6b97a9
+    }
+
     footer {
       color: #4c717d
     }
@@ -370,7 +374,7 @@
 
         // Institution column
         const tdInstitution = document.createElement('td');
-        tdInstitution.textContent = `${row['Institution']} (${trimmedTitle})`;
+        tdInstitution.textContent = `${row['Institution']} <span class="institution-type">(${trimmedTitle})</span>`;
         tr.appendChild(tdInstitution);
 
         // Rating column
