@@ -374,7 +374,7 @@
 
         // Institution column
         const tdInstitution = document.createElement('td');
-        tdInstitution.textContent = `${row['Institution']} <span class="institution-type">(${trimmedTitle})</span>`;
+        tdInstitution.innerHTML = `${row['Institution']} <span class="institution-type">(${trimmedTitle})</span>`;
         tr.appendChild(tdInstitution);
 
         // Rating column
