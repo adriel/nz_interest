@@ -87,7 +87,8 @@ Fund Managers,Squirrel,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel,,P2P Lending (Personal),$100,7.75
 Fund Managers,Squirrel,,"P2P Lending (Managed Fund, 1y return)",$100,7.30
-Fund Managers,Milford,,"Managed Fund, 1y return",$1000,5.38
+Fund Managers,Milford,,"Cash Fund, yield as of (31 January 2025)",$1000,
+Fund Managers,Kernel,,"Cash Fund, yield as of (31 January 2025)",$1,4.67
 Banks,ANZ,AA-,Online savings,$1,1.00
 Banks,ASB,AA-,Savings On Call,$1,1.15
 Banks,BNZ,AA-,Rapid Save,$1,3.20
@@ -128,4 +129,5 @@ Fund Managers,Squirrel,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel,,P2P Lending (Personal),$100,7.75
 Fund Managers,Squirrel,,"P2P Lending (Managed Fund, 1y return)",$100,7.30
-Fund Managers,Milford,,"Managed Fund, 1y return",$1000,5.38
+Fund Managers,Milford,,"Cash Fund, yield as of (31 January 2025)",$1000,
+Fund Managers,Kernel,,"Cash Fund, yield as of (31 January 2025)",$1,4.67
