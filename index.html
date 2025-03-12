@@ -102,13 +102,16 @@
       flex-direction: row;
     }
     
-    #institution-search {
+    #institution-search, #deposit-filter {
       padding: 8px 12px;
       width: 250px;
       border: 1px solid #ccc;
       border-radius: 4px;
       font-size: 16px;
       /* justify-content: flex-start; */
+    }
+    .search-container:has(> #deposit-filter) {
+      padding-left: 10px;
     }
     
     .filter-separator {
@@ -132,13 +135,16 @@
     Compare savings interest rates - most data thanks to <a href="https://www.interest.co.nz/" target="_blank">interest.co.nz</a>
   </h2>
 
-  
   <div id="filter-container">
     <div class="search-container">
       <input type="text" id="institution-search" placeholder="Filter by institution...">
     </div>
+    <div class="search-container">
+      <input type="number" id="deposit-filter" placeholder="Max deposit...">
+    </div>
     <div id="loading" class="loading">Loading data...</div>
   </div>
+  
   <table class="modern-table">
     <thead>
       <tr>
@@ -286,7 +292,7 @@
       setupFilterHandlers(sortedData);
       
       // Set up institution search
-      setupInstitutionSearch();
+      setupFilters();
     }
 
     function rtrim(str, char) {
@@ -419,13 +425,8 @@
         }
       });
 
-      // Get current checked values
-      const initialCheckedValues = Array.from(checkboxes)
-        .filter(cb => cb.checked)
-        .map(cb => cb.value);
-
       // Apply initial filtering
-      applyFilter(initialCheckedValues);
+      applyAllFilters();
 
       // Set up change event handlers
       checkboxes.forEach(checkbox => {
@@ -439,29 +440,47 @@
           localStorage.setItem("selectedFilters", JSON.stringify(checkedValues));
 
           // Apply filtering
-          applyFilter(checkedValues);
+          applyAllFilters();
         });
       });
     }
     
-    function setupInstitutionSearch() {
+    function setupFilters() {
+
       const searchInput = document.getElementById('institution-search');
-      
+      const depositFilter = document.getElementById('deposit-filter');
+
+      // Set up institution search handler
       searchInput.addEventListener('input', function() {
-        const searchText = this.value.toLowerCase();
-        
-        // Get current checked checkbox values
-        const checkboxes = document.querySelectorAll(".filter-checkbox");
-        const checkedValues = Array.from(checkboxes)
-          .filter(cb => cb.checked)
-          .map(cb => cb.value);
-        
-        // Apply both filters
-        applyFilters(checkedValues, searchText);
+        applyAllFilters();
       });
+
+      // Set up deposit filter handler
+      depositFilter.addEventListener('input', function() {
+        applyAllFilters();
+      });
+      
+    }
+
+    // Create a new function to apply all filters
+    function applyAllFilters() {
+      // Get current checked checkbox values
+      const checkboxes = document.querySelectorAll(".filter-checkbox");
+      const checkedValues = Array.from(checkboxes)
+        .filter(cb => cb.checked)
+        .map(cb => cb.value);
+
+      // Get current search text
+      const searchText = document.getElementById('institution-search').value.toLowerCase();
+
+      // Get current max min deposit value
+      const maxMinDeposit = document.getElementById('deposit-filter').value;
+
+      // Apply all filters
+      applyFilters(checkedValues, searchText, maxMinDeposit);
     }
     
-    function applyFilters(checkedValues, searchText = '') {
+    function applyFilters(checkedValues, searchText = '', maxMinDeposit = '') {
       const rows = document.querySelectorAll(".data-row");
 
       rows.forEach(row => {
@@ -470,8 +489,16 @@
         const shouldHideNoticeSaver = checkedValues.includes("notice_saver") && isNoticeSaver;
         const institutionName = row.getAttribute("data-institution");
         const matchesSearch = searchText === '' || institutionName.includes(searchText.toLowerCase());
+        
+        // Handle deposit filtering
+        let meetsDepositRequirement = true;
+        if (maxMinDeposit !== '') {
+          const minDepositText = row.children[3].textContent.replace('$', '').replace(',', '');
+          const minDepositValue = parseFloat(minDepositText);
+          meetsDepositRequirement = isNaN(minDepositValue) ? true : minDepositValue <= parseFloat(maxMinDeposit);
+        }
 
-        if (shouldHideNoticeSaver || !matchesSearch) {
+        if (shouldHideNoticeSaver || !matchesSearch || !meetsDepositRequirement) {
           row.style.display = "none";
         } else if (checkedValues.includes(row.getAttribute("data-title"))) {
           row.style.display = "table-row";
@@ -481,13 +508,6 @@
       });
     }
 
-    function applyFilter(checkedValues) {
-      // Get current search text
-      const searchText = document.getElementById('institution-search').value.toLowerCase();
-      
-      // Apply both filters
-      applyFilters(checkedValues, searchText);
-    }
   </script>
 </body>
 
