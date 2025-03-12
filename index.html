@@ -493,7 +493,7 @@
         // Handle deposit filtering
         let meetsDepositRequirement = true;
         if (maxMinDeposit !== '') {
-          const minDepositText = row.children[3].textContent.replace('$', '').replace(',', '');
+          const minDepositText = row.children[3].textContent.replace('$', '').replace(/,/g, '');
           const minDepositValue = parseFloat(minDepositText);
           meetsDepositRequirement = isNaN(minDepositValue) ? true : minDepositValue <= parseFloat(maxMinDeposit);
         }
