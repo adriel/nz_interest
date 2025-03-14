@@ -1,0 +1,196 @@
+Title,Institution,Credit Rating,Minimum deposit $,Credit,Paid,Period,Interest rate %
+Banks,ANZ,AA-,"$10,000",Z,Y,1 month,2.50
+Banks,ANZ,AA-,"$10,000",Z,Y,3 months,3.85
+Banks,ANZ,AA-,"$10,000",Z,Y,4 months,3.90
+Banks,ANZ,AA-,"$10,000",Z,Y,5 months,4.20
+Banks,ANZ,AA-,"$10,000",Z,Y,6 months,4.30
+Banks,ANZ,AA-,"$10,000",Z,Y,9 months,4.25
+Banks,ASB,AA-,"$5,000",Z,Y,1 month,2.50
+Banks,ASB,AA-,"$5,000",Z,Y,3 months,3.90
+Banks,ASB,AA-,"$5,000",Z,Y,4 months,4.00
+Banks,ASB,AA-,"$5,000",Z,Y,5 months,4.20
+Banks,ASB,AA-,"$5,000",Z,Y,6 months,4.35
+Banks,ASB,AA-,"$5,000",Z,Y,9 months,4.40
+Banks,ASB,AA-,"$10,000",Q,Y,1 month,2.50
+Banks,ASB,AA-,"$10,000",Q,Y,3 months,3.90
+Banks,ASB,AA-,"$10,000",Q,Y,4 months,4.00
+Banks,ASB,AA-,"$10,000",Q,Y,5 months,4.20
+Banks,ASB,AA-,"$10,000",Q,Y,6 months,4.35
+Banks,ASB,AA-,"$10,000",Q,Y,9 months,4.40
+Banks,BNZ,AA-,"$2,000",Z,Z,1 month,2.50
+Banks,BNZ,AA-,"$2,000",Z,Z,3 months,3.85
+Banks,BNZ,AA-,"$2,000",Z,Z,4 months,3.95
+Banks,BNZ,AA-,"$2,000",Z,Z,5 months,4.05
+Banks,BNZ,AA-,"$2,000",Z,Z,6 months,4.30
+Banks,BNZ,AA-,"$2,000",Z,Z,9 months,4.30
+Banks,BNZ,AA-,"$2,000",Z,Z,7 months,4.40
+Banks,BNZ,AA-,"$2,000",M,M,3 months,3.85
+Banks,BNZ,AA-,"$2,000",M,M,4 months,3.95
+Banks,BNZ,AA-,"$2,000",M,M,5 months,4.05
+Banks,BNZ,AA-,"$2,000",M,M,6 months,4.30
+Banks,BNZ,AA-,"$2,000",M,M,9 months,4.30
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,1 month,2.60
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,3 months,4.15
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,4 months,4.25
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,5 months,4.50
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,6 months,4.40
+Banks,Bank of Baroda,BBB-,"$1,000",M,M,9 months,4.40
+Banks,Bank of China,A,"$100,000",Z,Z,1 month,2.75
+Banks,Bank of China,A,"$100,000",Z,Z,3 months,4.15
+Banks,Bank of China,A,"$100,000",Z,Z,4 months,4.20
+Banks,Bank of China,A,"$100,000",Z,Z,5 months,4.50
+Banks,Bank of China,A,"$100,000",Z,Z,6 months,4.60
+Banks,Bank of China,A,"$100,000",Z,Z,9 months,4.55
+Banks,Bank of India,BB+,"$5,000",M,Y,1 month,2.40
+Banks,Bank of India,BB+,"$5,000",M,Y,3 months,3.90
+Banks,Bank of India,BB+,"$5,000",M,Y,4 months,3.90
+Banks,Bank of India,BB+,"$5,000",M,Y,5 months,4.05
+Banks,Bank of India,BB+,"$5,000",M,Y,6 months,4.05
+Banks,Bank of India,BB+,"$5,000",M,Y,9 months,4.15
+Banks,China Construction Bank,A,"$100,000",Z,Z,1 month,2.75
+Banks,China Construction Bank,A,"$100,000",Z,Z,3 months,4.00
+Banks,China Construction Bank,A,"$100,000",Z,Z,4 months,4.05
+Banks,China Construction Bank,A,"$100,000",Z,Z,5 months,4.30
+Banks,China Construction Bank,A,"$100,000",Z,Z,6 months,4.45
+Banks,China Construction Bank,A,"$100,000",Z,Z,9 months,4.40
+Banks,Co-operative Bank,BBB+,"$2,000",Q,Q,1 month,2.50
+Banks,Co-operative Bank,BBB+,"$2,000",Q,Q,3 months,3.90
+Banks,Co-operative Bank,BBB+,"$2,000",Q,Q,6 months,4.30
+Banks,Co-operative Bank,BBB+,"$2,000",Q,Q,9 months,4.30
+Banks,Co-operative Bank,BBB+,"$5,000",Q,Q,1 month,2.50
+Banks,Co-operative Bank,BBB+,"$5,000",Q,Q,3 months,3.90
+Banks,Co-operative Bank,BBB+,"$5,000",Q,Q,6 months,4.35
+Banks,Co-operative Bank,BBB+,"$5,000",Q,Q,9 months,4.30
+Banks,Co-operative Bank,BBB+,"$5,000",Q,Z,6 months,4.35
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,1 month,2.70
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,3 months,3.95
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,4 months,4.10
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,5 months,4.40
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,6 months,4.45
+Banks,Heartland Bank,BBB,"$1,000",Q,Q,9 months,4.40
+Banks,ICBC,A,"$5,000",Z,Z,1 month,2.60
+Banks,ICBC,A,"$5,000",Z,Z,3 months,3.90
+Banks,ICBC,A,"$5,000",Z,Z,4 months,4.00
+Banks,ICBC,A,"$5,000",Z,Z,5 months,4.35
+Banks,ICBC,A,"$5,000",Z,Z,6 months,4.45
+Banks,ICBC,A,"$5,000",Z,Z,9 months,4.35
+Banks,ICBC,A,"$10,000",Z,Z,1 month,2.70
+Banks,ICBC,A,"$10,000",Z,Z,3 months,4.00
+Banks,ICBC,A,"$10,000",Z,Z,4 months,4.10
+Banks,ICBC,A,"$10,000",Z,Z,5 months,4.45
+Banks,ICBC,A,"$10,000",Z,Z,6 months,4.55
+Banks,ICBC,A,"$10,000",Z,Z,9 months,4.45
+Banks,Kiwibank,A1,"$1,000",Z,Z,3 months,3.90
+Banks,Kiwibank,A1,"$1,000",Z,Z,4 months,4.00
+Banks,Kiwibank,A1,"$1,000",Z,Z,5 months,4.30
+Banks,Kiwibank,A1,"$1,000",Z,Z,6 months,4.40
+Banks,Kiwibank,A1,"$1,000",Z,Z,9 months,4.25
+Banks,Kiwibank,A1,"$5,000",Z,Z,1 month,2.50
+Banks,Kiwibank,A1,"$5,000",Z,Z,3 months,3.90
+Banks,Kiwibank,A1,"$5,000",Z,Z,4 months,4.00
+Banks,Kiwibank,A1,"$5,000",Z,Z,5 months,4.30
+Banks,Kiwibank,A1,"$5,000",Z,Z,6 months,4.40
+Banks,Kiwibank,A1,"$5,000",Z,Z,9 months,4.25
+Banks,Kiwibank,A1,"$5,000",,,200 days,4.30
+Banks,Kiwibank,A1,"$10,000",Z,Z,1 month,2.50
+Banks,Kiwibank,A1,"$10,000",Z,Z,3 months,3.90
+Banks,Kiwibank,A1,"$10,000",Z,Z,4 months,4.00
+Banks,Kiwibank,A1,"$10,000",Z,Z,5 months,4.30
+Banks,Kiwibank,A1,"$10,000",Z,Z,6 months,4.40
+Banks,Kiwibank,A1,"$10,000",Z,Z,9 months,4.25
+Banks,Kiwibank,A1,"$10,000",Z,Z,200 days,4.40
+Banks,Kookmin,A,"$5,000",Z,Z,1 month,2.60
+Banks,Kookmin,A,"$5,000",Z,Z,3 months,4.10
+Banks,Kookmin,A,"$5,000",Z,Z,4 months,4.10
+Banks,Kookmin,A,"$5,000",Z,Z,5 months,4.50
+Banks,Kookmin,A,"$5,000",Z,Z,6 months,5.00
+Banks,Kookmin,A,"$5,000",Z,Z,9 months,4.90
+Banks,Kookmin,A,"$10,000",Z,Z,1 month,2.70
+Banks,Kookmin,A,"$10,000",Z,Z,3 months,4.20
+Banks,Kookmin,A,"$10,000",Z,Z,4 months,4.20
+Banks,Kookmin,A,"$10,000",Z,Z,5 months,4.60
+Banks,Kookmin,A,"$10,000",Z,Z,6 months,5.10
+Banks,Kookmin,A,"$10,000",Z,Z,9 months,5.00
+Banks,Kookmin,A,"$50,000",Z,Z,1 month,2.70
+Banks,Kookmin,A,"$50,000",Z,Z,3 months,4.20
+Banks,Kookmin,A,"$50,000",Z,Z,4 months,4.20
+Banks,Kookmin,A,"$50,000",Z,Z,5 months,4.60
+Banks,Kookmin,A,"$50,000",Z,Z,6 months,5.10
+Banks,Kookmin,A,"$50,000",Z,Z,9 months,5.00
+Banks,Kookmin,A,"$100,000",Z,Z,1 month,2.70
+Banks,Kookmin,A,"$100,000",Z,Z,3 months,4.20
+Banks,Kookmin,A,"$100,000",Z,Z,4 months,4.20
+Banks,Kookmin,A,"$100,000",Z,Z,5 months,4.60
+Banks,Kookmin,A,"$100,000",Z,Z,6 months,5.30
+Banks,Kookmin,A,"$100,000",Z,Z,9 months,5.10
+Banks,RaboBank,A,"$1,000",Z,A,1 month,2.50
+Banks,RaboBank,A,"$1,000",Z,A,3 months,4.00
+Banks,RaboBank,A,"$1,000",Z,A,6 months,4.45
+Banks,RaboBank,A,"$1,000",Z,A,9 months,4.40
+Banks,SBS Bank,BBB,"$1,000",Q,Q,1 month,2.50
+Banks,SBS Bank,BBB,"$1,000",Q,Q,3 months,4.00
+Banks,SBS Bank,BBB,"$1,000",Q,Q,4 months,4.05
+Banks,SBS Bank,BBB,"$1,000",Q,Q,5 months,4.35
+Banks,SBS Bank,BBB,"$1,000",Q,Q,6 months,4.45
+Banks,SBS Bank,BBB,"$1,000",Q,Q,9 months,4.40
+Banks,SBS Bank,BBB,"$1,000",Z,Z,6 months,4.45
+Banks,SBS Bank,BBB,"$1,000",Z,Z,9 months,4.40
+Banks,TSB Bank,BBB+,"$1,000",Z,S,1 month,2.50
+Banks,TSB Bank,BBB+,"$1,000",Z,S,3 months,3.90
+Banks,TSB Bank,BBB+,"$1,000",Z,S,4 months,4.00
+Banks,TSB Bank,BBB+,"$1,000",Z,S,5 months,4.20
+Banks,TSB Bank,BBB+,"$1,000",Z,S,6 months,4.35
+Banks,TSB Bank,BBB+,"$1,000",Z,S,9 months,4.40
+Banks,Westpac,AA-,"$5,000",Q,Q,1 month,2.50
+Banks,Westpac,AA-,"$5,000",Q,Q,3 months,3.90
+Banks,Westpac,AA-,"$5,000",Q,Q,4 months,4.00
+Banks,Westpac,AA-,"$5,000",Q,Q,5 months,4.25
+Banks,Westpac,AA-,"$5,000",Q,Q,6 months,4.30
+Banks,Westpac,AA-,"$5,000",Q,Q,9 months,4.30
+Banks,Westpac,AA-,"$5,000",Z,Z,8 months,4.40
+Non-bank Deposit Takers,Christian Savings,BB+,"$1,000",S,S,1 month,2.75
+Non-bank Deposit Takers,Christian Savings,BB+,"$1,000",S,S,3 months,4.10
+Non-bank Deposit Takers,Christian Savings,BB+,"$1,000",S,S,6 months,4.60
+Non-bank Deposit Takers,Christian Savings,BB+,"$1,000",S,S,9 months,4.55
+Non-bank Deposit Takers,Finance Direct,,"$1,000",Q,Q,6 months,3.95
+Non-bank Deposit Takers,First CU,BB,$500,,,3 months,4.25
+Non-bank Deposit Takers,First CU,BB,$500,,,6 months,4.50
+Non-bank Deposit Takers,First CU,BB,$500,,,9 months,4.45
+Non-bank Deposit Takers,General Finance,BB,"$2,000",Q,Q,3 months,4.50
+Non-bank Deposit Takers,General Finance,BB,"$2,000",Q,Q,4 months,4.55
+Non-bank Deposit Takers,General Finance,BB,"$2,000",Q,Q,5 months,4.60
+Non-bank Deposit Takers,General Finance,BB,"$2,000",Q,Q,6 months,5.80
+Non-bank Deposit Takers,General Finance,BB,"$2,000",Q,Q,9 months,5.90
+Non-bank Deposit Takers,Gold Band Finance,BB-,"$5,000",Q,Q,6 months,3.75
+Non-bank Deposit Takers,Gold Band Finance,BB-,"$5,000",Q,Q,9 months,3.75
+Non-bank Deposit Takers,Heretaunga Bldg Socy,,$1,,,3 months,4.00
+Non-bank Deposit Takers,Heretaunga Bldg Socy,,$1,,,6 months,4.50
+Non-bank Deposit Takers,Liberty Financial,BBB,"$5,000",Q,Q,3 months,4.25
+Non-bank Deposit Takers,Liberty Financial,BBB,"$5,000",Q,Q,6 months,5.85
+Non-bank Deposit Takers,Liberty Financial,BBB,"$5,000",Q,Q,9 months,5.65
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"$5,000",,,1 month,2.10
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"$5,000",,,3 months,3.50
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"$5,000",,,6 months,4.00
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"$5,000",,,9 months,3.85
+Non-bank Deposit Takers,Police CU,BB+,$500,,,3 months,3.90
+Non-bank Deposit Takers,Police CU,BB+,$500,,,4 months,4.00
+Non-bank Deposit Takers,Police CU,BB+,$500,,,5 months,4.30
+Non-bank Deposit Takers,Police CU,BB+,$500,,,6 months,4.40
+Non-bank Deposit Takers,Police CU,BB+,$500,,,9 months,4.25
+Non-bank Deposit Takers,Police CU,BB+,$500,,,8 months,4.35
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,1 month,2.50
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,3 months,3.90
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,4 months,4.00
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,5 months,4.20
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,6 months,4.50
+Non-bank Deposit Takers,UnityMoney,BB,"$1,000",,,9 months,4.25
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"$2,000",,,3 months,3.95
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"$2,000",,,4 months,4.00
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"$2,000",,,6 months,4.40
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"$2,000",,,9 months,4.40
+Non-bank Deposit Takers,Xceda Finance,B+,"$2,500",Q,Q,6 months,6.00
+Non-bank Deposit Takers,Xceda Finance,B+,"$2,500",Q,Q,9 months,5.80
+Fund Managers,AMP,,"$1,000",,,3 months,3.95
+Fund Managers,AMP,,"$1,000",,,6 months,4.45
+Fund Managers,AMP,,"$1,000",,,9 months,4.40
+Crown Companies,Kiwi Bonds,AA+,"$1,000",Q,Q,6 months,3.50
