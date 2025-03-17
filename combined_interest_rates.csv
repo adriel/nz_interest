@@ -133,3 +133,198 @@ Fund Managers,Squirrel,,P2P Lending (Personal),$100,7.75
 Fund Managers,Squirrel,,"P2P Lending (Managed Fund, 1y return)",$100,7.30
 Fund Managers,Milford Asset Management,,"Cash Fund, yield as of (28 February 2025)",$1000,3.82
 Fund Managers,Kernel Wealth,,"Cash Fund, yield as of (28 February 2025)",$1,4.38
+Banks,ANZ,AA-,"TD, 1 month term (Z/Y)","$10,000",2.50
+Banks,ANZ,AA-,"TD, 3 months term (Z/Y)","$10,000",3.85
+Banks,ANZ,AA-,"TD, 4 months term (Z/Y)","$10,000",3.90
+Banks,ANZ,AA-,"TD, 5 months term (Z/Y)","$10,000",4.20
+Banks,ANZ,AA-,"TD, 6 months term (Z/Y)","$10,000",4.30
+Banks,ANZ,AA-,"TD, 9 months term (Z/Y)","$10,000",4.25
+Banks,ASB,AA-,"TD, 1 month term (Z/Y)","$5,000",2.50
+Banks,ASB,AA-,"TD, 3 months term (Z/Y)","$5,000",3.90
+Banks,ASB,AA-,"TD, 4 months term (Z/Y)","$5,000",4.00
+Banks,ASB,AA-,"TD, 5 months term (Z/Y)","$5,000",4.20
+Banks,ASB,AA-,"TD, 6 months term (Z/Y)","$5,000",4.35
+Banks,ASB,AA-,"TD, 9 months term (Z/Y)","$5,000",4.40
+Banks,ASB,AA-,"TD, 1 month term (Q/Y)","$10,000",2.50
+Banks,ASB,AA-,"TD, 3 months term (Q/Y)","$10,000",3.90
+Banks,ASB,AA-,"TD, 4 months term (Q/Y)","$10,000",4.00
+Banks,ASB,AA-,"TD, 5 months term (Q/Y)","$10,000",4.20
+Banks,ASB,AA-,"TD, 6 months term (Q/Y)","$10,000",4.35
+Banks,ASB,AA-,"TD, 9 months term (Q/Y)","$10,000",4.40
+Banks,BNZ,AA-,"TD, 1 month term (Z/Z)","$2,000",2.50
+Banks,BNZ,AA-,"TD, 3 months term (Z/Z)","$2,000",3.85
+Banks,BNZ,AA-,"TD, 4 months term (Z/Z)","$2,000",3.95
+Banks,BNZ,AA-,"TD, 5 months term (Z/Z)","$2,000",4.05
+Banks,BNZ,AA-,"TD, 6 months term (Z/Z)","$2,000",4.30
+Banks,BNZ,AA-,"TD, 9 months term (Z/Z)","$2,000",4.30
+Banks,BNZ,AA-,"TD, 7 months term (Z/Z)","$2,000",4.40
+Banks,BNZ,AA-,"TD, 3 months term (M/M)","$2,000",3.85
+Banks,BNZ,AA-,"TD, 4 months term (M/M)","$2,000",3.95
+Banks,BNZ,AA-,"TD, 5 months term (M/M)","$2,000",4.05
+Banks,BNZ,AA-,"TD, 6 months term (M/M)","$2,000",4.30
+Banks,BNZ,AA-,"TD, 9 months term (M/M)","$2,000",4.30
+Banks,Bank of Baroda,BBB-,"TD, 1 month term (M/M)","$1,000",2.60
+Banks,Bank of Baroda,BBB-,"TD, 3 months term (M/M)","$1,000",4.15
+Banks,Bank of Baroda,BBB-,"TD, 4 months term (M/M)","$1,000",4.25
+Banks,Bank of Baroda,BBB-,"TD, 5 months term (M/M)","$1,000",4.50
+Banks,Bank of Baroda,BBB-,"TD, 6 months term (M/M)","$1,000",4.40
+Banks,Bank of Baroda,BBB-,"TD, 9 months term (M/M)","$1,000",4.40
+Banks,Bank of China,A,"TD, 1 month term (Z/Z)","$100,000",2.75
+Banks,Bank of China,A,"TD, 3 months term (Z/Z)","$100,000",4.15
+Banks,Bank of China,A,"TD, 4 months term (Z/Z)","$100,000",4.20
+Banks,Bank of China,A,"TD, 5 months term (Z/Z)","$100,000",4.50
+Banks,Bank of China,A,"TD, 6 months term (Z/Z)","$100,000",4.60
+Banks,Bank of China,A,"TD, 9 months term (Z/Z)","$100,000",4.55
+Banks,Bank of India,BB+,"TD, 1 month term (M/Y)","$5,000",2.40
+Banks,Bank of India,BB+,"TD, 3 months term (M/Y)","$5,000",3.90
+Banks,Bank of India,BB+,"TD, 4 months term (M/Y)","$5,000",3.90
+Banks,Bank of India,BB+,"TD, 5 months term (M/Y)","$5,000",4.05
+Banks,Bank of India,BB+,"TD, 6 months term (M/Y)","$5,000",4.05
+Banks,Bank of India,BB+,"TD, 9 months term (M/Y)","$5,000",4.15
+Banks,China Construction Bank,A,"TD, 1 month term (Z/Z)","$100,000",2.75
+Banks,China Construction Bank,A,"TD, 3 months term (Z/Z)","$100,000",4.00
+Banks,China Construction Bank,A,"TD, 4 months term (Z/Z)","$100,000",4.05
+Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",4.30
+Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",4.45
+Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",4.40
+Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$2,000",2.50
+Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$2,000",3.90
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",4.30
+Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$2,000",4.30
+Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$5,000",2.50
+Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$5,000",3.90
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",4.35
+Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$5,000",4.30
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",4.35
+Banks,Heartland Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.70
+Banks,Heartland Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.95
+Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.10
+Banks,Heartland Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.40
+Banks,Heartland Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.45
+Banks,Heartland Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",4.40
+Banks,ICBC,A,"TD, 1 month term (Z/Z)","$5,000",2.60
+Banks,ICBC,A,"TD, 3 months term (Z/Z)","$5,000",3.90
+Banks,ICBC,A,"TD, 4 months term (Z/Z)","$5,000",4.00
+Banks,ICBC,A,"TD, 5 months term (Z/Z)","$5,000",4.35
+Banks,ICBC,A,"TD, 6 months term (Z/Z)","$5,000",4.45
+Banks,ICBC,A,"TD, 9 months term (Z/Z)","$5,000",4.35
+Banks,ICBC,A,"TD, 1 month term (Z/Z)","$10,000",2.70
+Banks,ICBC,A,"TD, 3 months term (Z/Z)","$10,000",4.00
+Banks,ICBC,A,"TD, 4 months term (Z/Z)","$10,000",4.10
+Banks,ICBC,A,"TD, 5 months term (Z/Z)","$10,000",4.45
+Banks,ICBC,A,"TD, 6 months term (Z/Z)","$10,000",4.55
+Banks,ICBC,A,"TD, 9 months term (Z/Z)","$10,000",4.45
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.90
+Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$1,000",4.00
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",4.30
+Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$1,000",4.40
+Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$1,000",4.25
+Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$5,000",2.50
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$5,000",3.90
+Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$5,000",4.00
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$5,000",4.30
+Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$5,000",4.40
+Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$5,000",4.25
+Banks,Kiwibank,A1,"TD, 200 days term (/)","$5,000",4.30
+Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$10,000",2.50
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$10,000",3.90
+Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$10,000",4.00
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$10,000",4.30
+Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$10,000",4.40
+Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$10,000",4.25
+Banks,Kiwibank,A1,"TD, 200 days term (Z/Z)","$10,000",4.40
+Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$5,000",2.60
+Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$5,000",4.10
+Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$5,000",4.10
+Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$5,000",4.50
+Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$5,000",5.00
+Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$5,000",4.90
+Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$10,000",2.70
+Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$10,000",4.20
+Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$10,000",4.20
+Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$10,000",4.60
+Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$10,000",5.10
+Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$10,000",5.00
+Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$50,000",2.70
+Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$50,000",4.20
+Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$50,000",4.20
+Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$50,000",4.60
+Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$50,000",5.10
+Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$50,000",5.00
+Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$100,000",2.70
+Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$100,000",4.20
+Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$100,000",4.20
+Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$100,000",4.60
+Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$100,000",5.30
+Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$100,000",5.10
+Banks,RaboBank,A,"TD, 1 month term (Z/A)","$1,000",2.50
+Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",4.00
+Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.45
+Banks,RaboBank,A,"TD, 9 months term (Z/A)","$1,000",4.40
+Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.50
+Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",4.00
+Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.05
+Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.35
+Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.45
+Banks,SBS Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",4.40
+Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",4.45
+Banks,SBS Bank,BBB,"TD, 9 months term (Z/Z)","$1,000",4.40
+Banks,TSB Bank,BBB+,"TD, 1 month term (Z/S)","$1,000",2.50
+Banks,TSB Bank,BBB+,"TD, 3 months term (Z/S)","$1,000",3.90
+Banks,TSB Bank,BBB+,"TD, 4 months term (Z/S)","$1,000",4.00
+Banks,TSB Bank,BBB+,"TD, 5 months term (Z/S)","$1,000",4.20
+Banks,TSB Bank,BBB+,"TD, 6 months term (Z/S)","$1,000",4.35
+Banks,TSB Bank,BBB+,"TD, 9 months term (Z/S)","$1,000",4.40
+Banks,Westpac,AA-,"TD, 1 month term (Q/Q)","$5,000",2.50
+Banks,Westpac,AA-,"TD, 3 months term (Q/Q)","$5,000",3.90
+Banks,Westpac,AA-,"TD, 4 months term (Q/Q)","$5,000",4.00
+Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",4.25
+Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",4.30
+Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",4.30
+Banks,Westpac,AA-,"TD, 8 months term (Z/Z)","$5,000",4.40
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.75
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",4.10
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",4.60
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",4.55
+Non-bank Deposit Takers,Finance Direct,,"TD, 6 months term (Q/Q)","$1,000",3.95
+Non-bank Deposit Takers,First CU,BB,"TD, 3 months term (/)",$500,4.25
+Non-bank Deposit Takers,First CU,BB,"TD, 6 months term (/)",$500,4.50
+Non-bank Deposit Takers,First CU,BB,"TD, 9 months term (/)",$500,4.45
+Non-bank Deposit Takers,General Finance,BB,"TD, 3 months term (Q/Q)","$2,000",4.50
+Non-bank Deposit Takers,General Finance,BB,"TD, 4 months term (Q/Q)","$2,000",4.55
+Non-bank Deposit Takers,General Finance,BB,"TD, 5 months term (Q/Q)","$2,000",4.60
+Non-bank Deposit Takers,General Finance,BB,"TD, 6 months term (Q/Q)","$2,000",5.80
+Non-bank Deposit Takers,General Finance,BB,"TD, 9 months term (Q/Q)","$2,000",5.90
+Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 6 months term (Q/Q)","$5,000",3.75
+Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 9 months term (Q/Q)","$5,000",3.75
+Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 3 months term (/)",$1,4.00
+Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 6 months term (/)",$1,4.45
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 months term (Q/Q)","$5,000",3.95
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 6 months term (Q/Q)","$5,000",5.15
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 9 months term (Q/Q)","$5,000",5.15
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 1 month term (/)","$5,000",2.10
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 months term (/)","$5,000",3.50
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000",4.00
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 9 months term (/)","$5,000",3.85
+Non-bank Deposit Takers,Police CU,BB+,"TD, 3 months term (/)",$500,3.90
+Non-bank Deposit Takers,Police CU,BB+,"TD, 4 months term (/)",$500,4.00
+Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,4.30
+Non-bank Deposit Takers,Police CU,BB+,"TD, 6 months term (/)",$500,4.40
+Non-bank Deposit Takers,Police CU,BB+,"TD, 9 months term (/)",$500,4.25
+Non-bank Deposit Takers,Police CU,BB+,"TD, 8 months term (/)",$500,4.35
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 1 month term (/)","$1,000",2.50
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 3 months term (/)","$1,000",3.90
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 4 months term (/)","$1,000",4.00
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 5 months term (/)","$1,000",4.20
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 6 months term (/)","$1,000",4.50
+Non-bank Deposit Takers,UnityMoney,BB,"TD, 9 months term (/)","$1,000",4.25
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 3 months term (/)","$2,000",3.95
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 4 months term (/)","$2,000",4.00
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 6 months term (/)","$2,000",4.40
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 9 months term (/)","$2,000",4.40
+Non-bank Deposit Takers,Xceda Finance,B+,"TD, 6 months term (Q/Q)","$2,500",6.00
+Non-bank Deposit Takers,Xceda Finance,B+,"TD, 9 months term (Q/Q)","$2,500",5.80
+Fund Managers,AMP,,"TD, 3 months term (/)","$1,000",3.95
+Fund Managers,AMP,,"TD, 6 months term (/)","$1,000",4.45
+Fund Managers,AMP,,"TD, 9 months term (/)","$1,000",4.40
+Crown Companies,Kiwi Bonds,AA+,"TD, 6 months term (Q/Q)","$1,000",3.50
