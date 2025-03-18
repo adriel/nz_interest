@@ -489,8 +489,25 @@
         const isNoticeSaver = /^notice\s*saver/i.test(accountType);
         const shouldHideNoticeSaver = checkedValues.includes("notice_saver") && isNoticeSaver;
         const institutionName = row.getAttribute("data-institution");
-        const matchesSearch = searchText === '' || institutionName.includes(searchText.toLowerCase());
         
+        // Handle multiple search terms separated by commas
+        let matchesSearch = false;
+        if (searchText === '') {
+            matchesSearch = true;
+        } else {
+            // Split by comma, trim whitespace, and filter out empty terms
+            const searchTerms = searchText.toLowerCase().split(',')
+                .map(term => term.trim())
+                .filter(term => term !== '');
+
+            // If all terms were empty (e.g., just commas), treat as empty search
+            if (searchTerms.length === 0) {
+                matchesSearch = true;
+            } else {
+                matchesSearch = searchTerms.some(term => institutionName.includes(term));
+            }
+        }
+
         // Handle deposit filtering
         let meetsDepositRequirement = true;
         if (maxMinDeposit !== '') {
