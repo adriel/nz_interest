@@ -105,7 +105,7 @@
     
     #institution-search, #deposit-filter {
       padding: 8px 12px;
-      width: 250px;
+      width: 190px;
       border: 1px solid #ccc;
       border-radius: 4px;
       font-size: 16px;
@@ -353,16 +353,25 @@
 
       // Add Notice Saver filter
       const noticeLabel = document.createElement('label');
-
       const noticeCheckbox = document.createElement('input');
       noticeCheckbox.type = 'checkbox';
       noticeCheckbox.className = 'filter-checkbox';
       noticeCheckbox.value = 'notice_saver';
       noticeCheckbox.checked = true;
-
       noticeLabel.appendChild(noticeCheckbox);
       noticeLabel.appendChild(document.createTextNode(' Hide Notice Saver '));
       form.appendChild(noticeLabel);
+
+      // Add Hide TDs filter
+      const tdLabel = document.createElement('label');
+      const tdCheckbox = document.createElement('input');
+      tdCheckbox.type = 'checkbox';
+      tdCheckbox.className = 'filter-checkbox';
+      tdCheckbox.value = 'hide_tds';
+      tdCheckbox.checked = false; // Unchecked by default
+      tdLabel.appendChild(tdCheckbox);
+      tdLabel.appendChild(document.createTextNode(' Hide TDs '));
+      form.appendChild(tdLabel);
 
       filterContainer.appendChild(form);
     }
@@ -487,7 +496,9 @@
       rows.forEach(row => {
         const accountType = row.children[2].textContent.trim();
         const isNoticeSaver = /^notice\s*saver/i.test(accountType);
+        const isTD = /^TD,/i.test(accountType);
         const shouldHideNoticeSaver = checkedValues.includes("notice_saver") && isNoticeSaver;
+        const shouldHideTD = checkedValues.includes("hide_tds") && isTD;
         const institutionName = row.getAttribute("data-institution");
         
         // Handle multiple search terms separated by commas
@@ -516,7 +527,7 @@
           meetsDepositRequirement = isNaN(minDepositValue) ? true : minDepositValue <= parseFloat(maxMinDeposit);
         }
 
-        if (shouldHideNoticeSaver || !matchesSearch || !meetsDepositRequirement) {
+        if (shouldHideNoticeSaver || shouldHideTD || !matchesSearch || !meetsDepositRequirement) {
           row.style.display = "none";
         } else if (checkedValues.includes(row.getAttribute("data-title"))) {
           row.style.display = "table-row";
