@@ -262,12 +262,12 @@ Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",4.00
 Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.45
 Banks,RaboBank,A,"TD, 9 months term (Z/A)","$1,000",4.40
 Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.50
-Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",4.00
-Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.05
-Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.35
-Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.45
+Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.90
+Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.00
+Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.25
+Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.35
 Banks,SBS Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",4.40
-Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",4.45
+Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",4.35
 Banks,SBS Bank,BBB,"TD, 9 months term (Z/Z)","$1,000",4.40
 Banks,TSB Bank,BBB+,"TD, 1 month term (Z/S)","$1,000",2.50
 Banks,TSB Bank,BBB+,"TD, 3 months term (Z/S)","$1,000",3.90
