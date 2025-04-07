@@ -182,11 +182,11 @@ Banks,Bank of India,BB+,"TD, 5 months term (M/Y)","$5,000",4.05
 Banks,Bank of India,BB+,"TD, 6 months term (M/Y)","$5,000",4.05
 Banks,Bank of India,BB+,"TD, 9 months term (M/Y)","$5,000",4.15
 Banks,China Construction Bank,A,"TD, 1 month term (Z/Z)","$100,000",2.75
-Banks,China Construction Bank,A,"TD, 3 months term (Z/Z)","$100,000",4.00
-Banks,China Construction Bank,A,"TD, 4 months term (Z/Z)","$100,000",4.05
-Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",4.30
-Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",4.45
-Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",4.40
+Banks,China Construction Bank,A,"TD, 3 months term (Z/Z)","$100,000",3.73
+Banks,China Construction Bank,A,"TD, 4 months term (Z/Z)","$100,000",3.85
+Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",4.15
+Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",4.25
+Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",4.20
 Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$2,000",2.50
 Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$2,000",3.75
 Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",4.20
@@ -295,8 +295,8 @@ Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000"
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 9 months term (/)","$5,000",3.85
 Non-bank Deposit Takers,Police CU,BB+,"TD, 3 months term (/)",$500,3.80
 Non-bank Deposit Takers,Police CU,BB+,"TD, 4 months term (/)",$500,3.90
-Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,4.20
-Non-bank Deposit Takers,Police CU,BB+,"TD, 6 months term (/)",$500,4.30
+Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,4.10
+Non-bank Deposit Takers,Police CU,BB+,"TD, 6 months term (/)",$500,4.20
 Non-bank Deposit Takers,Police CU,BB+,"TD, 9 months term (/)",$500,4.25
 Non-bank Deposit Takers,Police CU,BB+,"TD, 8 months term (/)",$500,4.25
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 1 month term (/)","$1,000",2.50
