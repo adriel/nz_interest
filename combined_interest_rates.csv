@@ -196,12 +196,12 @@ Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$5,000",3.70
 Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",4.20
 Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$5,000",4.15
 Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",4.20
-Banks,Heartland Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.70
-Banks,Heartland Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.95
-Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.10
-Banks,Heartland Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.40
-Banks,Heartland Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.45
-Banks,Heartland Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",4.40
+Banks,Heartland Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.50
+Banks,Heartland Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.65
+Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.80
+Banks,Heartland Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",4.20
+Banks,Heartland Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.30
+Banks,Heartland Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",4.20
 Banks,ICBC,A,"TD, 1 month term (Z/Z)","$5,000",2.60
 Banks,ICBC,A,"TD, 3 months term (Z/Z)","$5,000",3.90
 Banks,ICBC,A,"TD, 4 months term (Z/Z)","$5,000",3.95
@@ -251,8 +251,8 @@ Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$100,000",5.30
 Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$100,000",5.10
 Banks,RaboBank,A,"TD, 1 month term (Z/A)","$1,000",2.50
 Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",4.00
-Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.35
-Banks,RaboBank,A,"TD, 9 months term (Z/A)","$1,000",4.30
+Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.45
+Banks,RaboBank,A,"TD, 9 months term (Z/A)","$1,000",4.10
 Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.50
 Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.85
 Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",4.00
@@ -279,9 +279,9 @@ Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000"
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",4.45
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",4.40
 Non-bank Deposit Takers,Finance Direct,,"TD, 6 months term (Q/Q)","$1,000",3.95
-Non-bank Deposit Takers,First CU,BB,"TD, 3 months term (/)",$500,4.25
-Non-bank Deposit Takers,First CU,BB,"TD, 6 months term (/)",$500,4.50
-Non-bank Deposit Takers,First CU,BB,"TD, 9 months term (/)",$500,4.45
+Non-bank Deposit Takers,First CU,BB,"TD, 3 months term (/)",$500,4.00
+Non-bank Deposit Takers,First CU,BB,"TD, 6 months term (/)",$500,4.25
+Non-bank Deposit Takers,First CU,BB,"TD, 9 months term (/)",$500,4.25
 Non-bank Deposit Takers,General Finance,BB,"TD, 3 months term (Q/Q)","$2,000",4.00
 Non-bank Deposit Takers,General Finance,BB,"TD, 4 months term (Q/Q)","$2,000",4.10
 Non-bank Deposit Takers,General Finance,BB,"TD, 5 months term (Q/Q)","$2,000",4.20
@@ -312,8 +312,8 @@ Non-bank Deposit Takers,UnityMoney,BB,"TD, 6 months term (/)","$1,000",4.00
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 9 months term (/)","$1,000",3.90
 Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 3 months term (/)","$2,000",3.95
 Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 4 months term (/)","$2,000",4.00
-Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 6 months term (/)","$2,000",4.40
-Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 9 months term (/)","$2,000",4.40
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 6 months term (/)","$2,000",4.30
+Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,"TD, 9 months term (/)","$2,000",4.30
 Non-bank Deposit Takers,Xceda Finance,B+,"TD, 6 months term (Q/Q)","$2,500",6.00
 Non-bank Deposit Takers,Xceda Finance,B+,"TD, 9 months term (Q/Q)","$2,500",5.80
 Fund Managers,AMP,,"TD, 3 months term (/)","$1,000",3.95
