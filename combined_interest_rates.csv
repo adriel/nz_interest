@@ -87,7 +87,7 @@ Fund Managers,Squirrel Money,,On Call,$0,3.25
 Fund Managers,Squirrel Money,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel Money,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel Money,,P2P Lending (Personal),$100,7.75
-Fund Managers,Squirrel Money,,"P2P Lending (Managed Fund, 1y return)",$100,7.30
+Fund Managers,Squirrel Money,,"P2P Lending (Managed Fund, 1y return)",$100,7.25
 Fund Managers,Milford Asset Management,,"Cash Fund, yield as of (31 March 2025)",$1000,3.75
 Fund Managers,Kernel Wealth,,"Cash Fund, yield as of (31 March 2025)",$1,4.16
 Banks,ANZ,AA-,Online savings,$1,0.80
@@ -130,7 +130,7 @@ Fund Managers,Squirrel Money,,On Call,$0,3.25
 Fund Managers,Squirrel Money,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel Money,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel Money,,P2P Lending (Personal),$100,7.75
-Fund Managers,Squirrel Money,,"P2P Lending (Managed Fund, 1y return)",$100,7.30
+Fund Managers,Squirrel Money,,"P2P Lending (Managed Fund, 1y return)",$100,7.25
 Fund Managers,Milford Asset Management,,"Cash Fund, yield as of (31 March 2025)",$1000,3.75
 Fund Managers,Kernel Wealth,,"Cash Fund, yield as of (31 March 2025)",$1,4.16
 Banks,ANZ,AA-,"TD, 1 month term (Z/Y)","$10,000",2.25
@@ -193,9 +193,9 @@ Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",4.05
 Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$2,000",4.05
 Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$5,000",2.30
 Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$5,000",3.55
-Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",4.05
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",4.10
 Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$5,000",4.05
-Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",4.05
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",4.10
 Banks,Heartland Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.50
 Banks,Heartland Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.65
 Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.80
