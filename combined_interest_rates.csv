@@ -30,7 +30,7 @@ Banks,RaboBank,A,PremiumSaver - bonus,$1,1.75
 Banks,RaboBank,A,"PremiumSaver - potential rate - to $100,000",$1,3.25
 Banks,SBS Bank,BBB,i-Save,$1,0.40
 Banks,SBS Bank,BBB,Prospector Call,$1,0.35
-Banks,TSB Bank,BBB+,WebSaver,$1,2.45
+Banks,TSB Bank,BBB+,WebSaver,$1,2.20
 Banks,Westpac,AA-,Notice Saver 32 days,$1,3.35
 Banks,Westpac,AA-,Simple Saver,$1,0.80
 Non-bank Deposit Takers,Christian Savings,BB+,Call,$1,2.00
@@ -294,10 +294,10 @@ Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 6 months term (/)",$1,4.35
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 months term (Q/Q)","$5,000",3.95
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 6 months term (Q/Q)","$5,000",5.15
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 9 months term (Q/Q)","$5,000",5.15
-Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 1 month term (/)","$5,000",2.00
-Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 months term (/)","$5,000",3.40
-Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000",3.85
-Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 9 months term (/)","$5,000",3.85
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 1 month term (/)","$5,000",1.95
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 months term (/)","$5,000",3.25
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000",3.75
+Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 9 months term (/)","$5,000",3.65
 Non-bank Deposit Takers,Police CU,BB+,"TD, 3 months term (/)",$500,3.55
 Non-bank Deposit Takers,Police CU,BB+,"TD, 4 months term (/)",$500,3.70
 Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,3.95
