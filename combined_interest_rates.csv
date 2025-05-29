@@ -272,11 +272,11 @@ Banks,TSB Bank,BBB+,"TD, 5 months term (Z/S)","$1,000",3.90
 Banks,TSB Bank,BBB+,"TD, 6 months term (Z/S)","$1,000",3.95
 Banks,TSB Bank,BBB+,"TD, 9 months term (Z/S)","$1,000",3.95
 Banks,Westpac,AA-,"TD, 1 month term (Q/Q)","$5,000",2.20
-Banks,Westpac,AA-,"TD, 3 months term (Q/Q)","$5,000",3.70
-Banks,Westpac,AA-,"TD, 4 months term (Q/Q)","$5,000",3.65
-Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",3.90
-Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",4.00
-Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",4.00
+Banks,Westpac,AA-,"TD, 3 months term (Q/Q)","$5,000",3.60
+Banks,Westpac,AA-,"TD, 4 months term (Q/Q)","$5,000",3.55
+Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",3.80
+Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",3.90
+Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",3.90
 Banks,Westpac,AA-,"TD, 8 months term (Z/Z)","$5,000",4.00
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.50
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.65
