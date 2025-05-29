@@ -11,10 +11,10 @@ Banks,Bank of India,BB+,Star savings,"$1,000",0.10
 Banks,China Construction Bank,A,Saving,"$1,000",2.25
 Banks,Co-operative Bank,BBB+,Online Account,$1,1.35
 Banks,Co-operative Bank,BBB+,Smile On Call,"$4,000",0.40
-Banks,Heartland Bank,BBB,Digital Saver,$1,3.30
-Banks,Heartland Bank,BBB,Direct Call,$1,2.80
-Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.50
-Banks,Heartland Bank,BBB,Notice Saver 90 days,$0,3.75
+Banks,Heartland Bank,BBB,Digital Saver,$1,3.00
+Banks,Heartland Bank,BBB,Direct Call,$1,2.55
+Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.25
+Banks,Heartland Bank,BBB,Notice Saver 90 days,$0,3.50
 Banks,ICBC,A,Savings,$1,2.25
 Banks,ICBC,A,Smart Saver,$1,3.65
 Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.55
@@ -30,7 +30,7 @@ Banks,RaboBank,A,PremiumSaver - bonus,$1,1.75
 Banks,RaboBank,A,"PremiumSaver - potential rate - to $100,000",$1,3.25
 Banks,SBS Bank,BBB,i-Save,$1,0.40
 Banks,SBS Bank,BBB,Prospector Call,$1,0.35
-Banks,TSB Bank,BBB+,WebSaver,$1,2.20
+Banks,TSB Bank,BBB+,WebSaver,$1,1.95
 Banks,Westpac,AA-,Notice Saver 32 days,$1,3.10
 Banks,Westpac,AA-,Simple Saver,$1,0.55
 Non-bank Deposit Takers,Christian Savings,BB+,Call,$1,1.75
@@ -58,14 +58,14 @@ Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$100,000",1.20
 Non-bank Deposit Takers,UnityMoney,BB,Kids Saver,$1,3.25
 Non-bank Deposit Takers,UnityMoney,BB,Christmas Saver,$1,2.55
 Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,Call,$500,2.00
-Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.25
-Non-bank Deposit Takers,Xceda Finance,B+,Notice Saver 90 days,$100,4.75
+Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.00
+Non-bank Deposit Takers,Xceda Finance,B+,Notice Saver 90 days,$100,4.00
 Fund Managers,Booster,,Savvy,$1,3.50
 Fund Managers,Dosh,,Strives,$1,3.35
 Fund Managers,Go Lend,,On Call account,$1,3.25
-Fund Managers,Kernel Wealth,,Smart Saver,$1,3.05
+Fund Managers,Kernel Wealth,,Smart Saver,$1,2.80
 Fund Managers,Sharesies,,Save,$1,2.35
-Fund Managers,Squirrel Money,,On Call,$0,3.25
+Fund Managers,Squirrel Money,,On Call,$0,3.00
 Fund Managers,Wedge Money,,Call,$1,4.00
 Brokers,ASB Securities,,Cash Management Trust,"$100,000",0.00
 Brokers,ASB Securities,,Cash Management Trust,"$250,000",0.00
@@ -74,10 +74,10 @@ Brokers,Craigs Investment Partners,,Cash Management Trust,$1,3.85
 Brokers,Craigs Investment Partners,,Cash Management Trust,"$20,000",4.00
 Brokers,Craigs Investment Partners,,Cash Management Trust,"$100,000",4.20
 Brokers,Craigs Investment Partners,,Cash Management Trust,"$250,000",4.10
-Brokers,Forsyth Barr,,Cash Management Trust,$0,3.25
-Brokers,Forsyth Barr,,Cash Management Trust,"$20,000",3.40
-Brokers,Forsyth Barr,,Cash Management Trust,"$50,000",3.50
-Brokers,Forsyth Barr,,Cash Management Trust,"$250,000",3.60
+Brokers,Forsyth Barr,,Cash Management Trust,$0,3.00
+Brokers,Forsyth Barr,,Cash Management Trust,"$20,000",3.15
+Brokers,Forsyth Barr,,Cash Management Trust,"$50,000",3.25
+Brokers,Forsyth Barr,,Cash Management Trust,"$250,000",3.35
 Brokers,Jarden,,Cash Mangement Trust,$1,2.75
 Brokers,Jarden,,Cash Mangement Trust,"$15,000",3.05
 Brokers,Jarden,,Cash Mangement Trust,"$50,000",3.60
@@ -85,7 +85,7 @@ Brokers,Jarden,,Cash Mangement Trust,"$200,000",3.75
 Brokers,Jarden,,Cash Mangement Trust,"$1,000,000",4.15
 Brokers,Jarden,,Cash Mangement Trust,"$3,000,000",4.25
 Fund Managers,Debut,,Universal Interest,$1,3.80
-Fund Managers,Squirrel Money,,On Call,$0,3.25
+Fund Managers,Squirrel Money,,On Call,$0,3.00
 Fund Managers,Squirrel Money,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel Money,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel Money,,P2P Lending (Personal),$100,7.75
@@ -93,19 +93,19 @@ Fund Managers,Squirrel Money,,"P2P Lending (Managed Fund, 1y return)",$100,7.18
 Fund Managers,Milford Asset Management,,"Cash Fund, yield as of (30 April 2025)",$1000,3.59
 Fund Managers,Kernel Wealth,,"Cash Fund, yield as of (30 April 2025)",$1,3.78
 Banks,ANZ,AA-,Online savings,$1,0.70
-Banks,ASB,AA-,Savings On Call,$1,0.90
+Banks,ASB,AA-,Savings On Call,$1,0.70
 Banks,BNZ,AA-,Rapid Save,$1,3.00
 Banks,Bank of China,A,Online Saver,"$10,000",1.50
 Banks,Co-operative Bank,BBB+,Online account,$1,1.35
-Banks,Heartland Bank,BBB,Digital Saver,$1,3.30
-Banks,Heartland Bank,BBB,Direct Call,$1,2.80
-Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.50
-Banks,Heartland Bank,BBB,Notice Saver 90 days,$1,3.75
+Banks,Heartland Bank,BBB,Digital Saver,$1,3.00
+Banks,Heartland Bank,BBB,Direct Call,$1,2.55
+Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.25
+Banks,Heartland Bank,BBB,Notice Saver 90 days,$1,3.50
 Banks,ICBC,A,Savings,$1,2.25
 Banks,ICBC,A,Smart Saver,$1,3.65
-Banks,Kiwibank,A1,Online Call,$1,2.50
-Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.80
-Banks,Kiwibank,A1,Notice Saver 90 days,$1,3.35
+Banks,Kiwibank,A1,Online Call,$1,2.25
+Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.55
+Banks,Kiwibank,A1,Notice Saver 90 days,$1,3.10
 Banks,RaboBank,A,RaboSaver,$1,2.25
 Banks,RaboBank,A,RaboSaver,"$5,000,000",1.90
 Banks,RaboBank,A,NoticeSaver 60 days,$1,3.40
@@ -113,24 +113,24 @@ Banks,RaboBank,A,PremiumSaver - base,$1,1.50
 Banks,RaboBank,A,PremiumSaver - bonus,$1,1.75
 Banks,RaboBank,A,"PremiumSaver - potential rate - to $100,000",$1,3.25
 Banks,SBS Bank,BBB,i-Save,$1,0.40
-Banks,TSB Bank,BBB+,WebSaver,$1,2.20
+Banks,TSB Bank,BBB+,WebSaver,$1,1.95
 Banks,Westpac,AA-,Westpac Bonus Saver - base rate,$1,0.25
-Banks,Westpac,AA-,Westpac Bonus Saver - bonus rate,$1,2.25
-Banks,Westpac,AA-,Westpac Bonus Saver - potential rate,$1,2.50
+Banks,Westpac,AA-,Westpac Bonus Saver - bonus rate,$1,2.00
+Banks,Westpac,AA-,Westpac Bonus Saver - potential rate,$1,2.25
 Non-bank Deposit Takers,First CU,BB,Online Savings,$1,1.50
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,Call,$1,1.50
 Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.75
 Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.40
-Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.25
+Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.00
 Fund Managers,Booster,,Savvy,$1,3.50
 Fund Managers,Dosh,,Strives,$1,3.35
 Fund Managers,Go Lend,,On Call account,$1,3.25
-Fund Managers,Kernel Wealth,,Smart Saver,$1,3.05
+Fund Managers,Kernel Wealth,,Smart Saver,$1,2.80
 Fund Managers,Sharesies,,Save,$1,2.35
-Fund Managers,Squirrel Money,,On Call,$0,3.25
+Fund Managers,Squirrel Money,,On Call,$0,3.00
 Fund Managers,Wedge Money,,Call,$1,4.00
 Fund Managers,Debut,,Universal Interest,$1,3.80
-Fund Managers,Squirrel Money,,On Call,$0,3.25
+Fund Managers,Squirrel Money,,On Call,$0,3.00
 Fund Managers,Squirrel Money,,P2P Lending (Home),$100,6.00
 Fund Managers,Squirrel Money,,P2P Lending (Construction),$100,6.50
 Fund Managers,Squirrel Money,,P2P Lending (Personal),$100,7.75
