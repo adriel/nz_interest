@@ -49,14 +49,14 @@ Non-bank Deposit Takers,Nelson Bldg Society,BB+,Access,"$10,000",0.05
 Non-bank Deposit Takers,Police CU,BB+,Achiever Saver (Membership criteria apply),$1,1.05
 Non-bank Deposit Takers,Police CU,BB+,Transactional Account (Membership criteria apply),"$2,000",0.05
 Non-bank Deposit Takers,Police CU,BB+,Christmas Club (Membership criteria apply),$20,0.80
-Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.75
-Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.40
-Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,$1,0.50
-Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$5,000",0.55
-Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$20,000",0.70
-Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$100,000",1.20
+Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.55
+Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.20
+Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,$1,0.30
+Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$5,000",0.35
+Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$20,000",0.50
+Non-bank Deposit Takers,UnityMoney,BB,Everyday Saver,"$100,000",1.00
 Non-bank Deposit Takers,UnityMoney,BB,Kids Saver,$1,3.25
-Non-bank Deposit Takers,UnityMoney,BB,Christmas Saver,$1,2.55
+Non-bank Deposit Takers,UnityMoney,BB,Christmas Saver,$1,2.30
 Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,Call,$500,2.00
 Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.00
 Non-bank Deposit Takers,Xceda Finance,B+,Notice Saver 90 days,$100,4.00
@@ -119,8 +119,8 @@ Banks,Westpac,AA-,Westpac Bonus Saver - bonus rate,$1,2.00
 Banks,Westpac,AA-,Westpac Bonus Saver - potential rate,$1,2.25
 Non-bank Deposit Takers,First CU,BB,Online Savings,$1,1.50
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,Call,$1,1.50
-Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.75
-Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.40
+Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.55
+Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.20
 Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,3.00
 Fund Managers,Booster,,Savvy,$1,3.25
 Fund Managers,Dosh,,Strives,$1,3.10
@@ -218,12 +218,12 @@ Banks,ICBC,A,"TD, 4 months term (Z/Z)","$10,000",3.85
 Banks,ICBC,A,"TD, 5 months term (Z/Z)","$10,000",4.05
 Banks,ICBC,A,"TD, 6 months term (Z/Z)","$10,000",4.15
 Banks,ICBC,A,"TD, 9 months term (Z/Z)","$10,000",4.05
-Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.50
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.55
 Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$1,000",3.70
-Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",3.90
-Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$1,000",4.05
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",3.75
+Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$1,000",3.95
 Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$1,000",4.00
-Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$5,000",2.30
+Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$5,000",2.20
 Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$5,000",3.50
 Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$5,000",3.70
 Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$5,000",3.90
@@ -294,7 +294,7 @@ Non-bank Deposit Takers,General Finance,BB,"TD, 9 months term (Q/Q)","$2,000",5.
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 6 months term (Q/Q)","$5,000",3.75
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 9 months term (Q/Q)","$5,000",3.75
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 3 months term (/)",$1,3.65
-Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 6 months term (/)",$1,4.10
+Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 6 months term (/)",$1,4.05
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 months term (Q/Q)","$5,000",3.95
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 6 months term (Q/Q)","$5,000",5.15
 Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 9 months term (Q/Q)","$5,000",5.15
