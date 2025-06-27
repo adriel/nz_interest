@@ -128,6 +128,19 @@
     footer {
       color: #4c717d
     }
+
+    .dcs {
+        font-weight: 600;
+        font-size: 8pt;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: #619fff;
+        color: #ffffff;
+        border-radius: 3px;
+        /* background-color: #fd588f; or #ff9291 */
+    }
   </style>
 </head>
 
@@ -166,6 +179,32 @@
   </footer>
 
   <script>
+
+    // Deposit takers that offer DCS-protected deposits as of 27/06/2025
+    // TODO - idealy I'd only list the DCS tag for the actual accounts that have that.
+    const dcsInstitutions = [
+      "ANZ",
+      "ASB",
+      "Bank of Baroda",
+      "Bank of China",
+      "Bank of India",
+      "BNZ",
+      "China Construction Bank",
+      "Christian Savings",
+      "First CU",
+      "Heartland Bank",
+      "Heretaunga Bldg Socy",
+      "Kiwibank",
+      "Nelson Bldg Society",
+      "Police CU",
+      "RaboBank",
+      "Co-operative Bank",
+      "TSB Bank",
+      "UnityMoney",
+      "Wairarapa Bldg Society",
+      "Westpac",
+      "Xceda Finance"
+    ];
 
     async function fetchAndDisplayTimestamp() {
         try {
@@ -339,7 +378,10 @@
         checkbox.className = 'filter-checkbox';
         checkbox.value = title;
         checkbox.checked = true;
-
+        
+        if (title === "Non-bank Deposit Taker") {
+            title = "NBDT";
+        }
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(' ' + title + ' '));
         form.appendChild(label);
@@ -390,7 +432,10 @@
 
         // Institution column
         const tdInstitution = document.createElement('td');
-        tdInstitution.innerHTML = `${row['Institution']} <span class="institution-type">(${trimmedTitle})</span>`;
+        const institution = row['Institution'] || '';
+        const isDCS = dcsInstitutions.some(name => name.toLowerCase() === institution.toLowerCase());
+        const dcsTag = isDCS ? '<span class="dcs">DCS</span>' : '';
+        tdInstitution.innerHTML = `${institution} ${dcsTag} <span class="institution-type">(${trimmedTitle})</span>`;
         tr.appendChild(tdInstitution);
 
         // Rating column
