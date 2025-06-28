@@ -33,9 +33,9 @@ Banks,SBS Bank,BBB,Prospector Call,$1,0.35
 Banks,TSB Bank,BBB+,WebSaver,$1,1.95
 Banks,Westpac,AA-,Notice Saver 32 days,$1,3.00
 Banks,Westpac,AA-,Simple Saver,$1,0.55
-Non-bank Deposit Takers,Christian Savings,BB+,Call,$1,1.75
-Non-bank Deposit Takers,Christian Savings,BB+,Call,"$20,000",2.00
-Non-bank Deposit Takers,Christian Savings,BB+,Call,"$50,000",2.25
+Non-bank Deposit Takers,Christian Savings,BB+,Call,$1,1.50
+Non-bank Deposit Takers,Christian Savings,BB+,Call,"$20,000",1.75
+Non-bank Deposit Takers,Christian Savings,BB+,Call,"$50,000",2.00
 Non-bank Deposit Takers,First CU,BB,Online savings,$1,1.50
 Non-bank Deposit Takers,First CU,BB,Moneymaker,"$5,000",2.50
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,On Call,$1,0.70
@@ -278,10 +278,10 @@ Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",3.75
 Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",3.90
 Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",3.85
 Banks,Westpac,AA-,"TD, 8 months term (Z/Z)","$5,000",3.90
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.50
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.65
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",4.05
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",4.00
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.30
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.50
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",4.00
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",3.95
 Non-bank Deposit Takers,Finance Direct,,"TD, 6 months term (Q/Q)","$1,000",3.75
 Non-bank Deposit Takers,First CU,BB,"TD, 3 months term (/)",$500,4.00
 Non-bank Deposit Takers,First CU,BB,"TD, 6 months term (/)",$500,4.25
