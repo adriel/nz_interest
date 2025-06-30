@@ -20,8 +20,6 @@ Banks,ICBC,A,Smart Saver,$1,3.15
 Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.55
 Banks,Kiwibank,A1,Notice Saver 90 days,$1,3.10
 Banks,Kiwibank,A1,Online Call,$1,2.25
-Banks,Kookmin,A,Personal Cheque,"$100,000",0.00
-Banks,Kookmin,A,Personal Cheque,"$250,000",0.00
 Banks,RaboBank,A,NoticeSaver 60 days,$1,3.15
 Banks,RaboBank,A,RaboSaver,$1,2.00
 Banks,RaboBank,A,RaboSaver,"$5,000,000",1.65
@@ -229,30 +227,6 @@ Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$5,000",3.55
 Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$5,000",3.75
 Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$5,000",3.95
 Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$5,000",3.90
-Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$5,000",2.60
-Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$5,000",4.10
-Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$5,000",4.10
-Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$5,000",4.50
-Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$5,000",5.00
-Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$5,000",4.90
-Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$10,000",2.70
-Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$10,000",4.20
-Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$10,000",4.20
-Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$10,000",4.60
-Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$10,000",5.10
-Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$10,000",5.00
-Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$50,000",2.70
-Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$50,000",4.20
-Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$50,000",4.20
-Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$50,000",4.60
-Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$50,000",5.10
-Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$50,000",5.00
-Banks,Kookmin,A,"TD, 1 month term (Z/Z)","$100,000",2.70
-Banks,Kookmin,A,"TD, 3 months term (Z/Z)","$100,000",4.20
-Banks,Kookmin,A,"TD, 4 months term (Z/Z)","$100,000",4.20
-Banks,Kookmin,A,"TD, 5 months term (Z/Z)","$100,000",4.60
-Banks,Kookmin,A,"TD, 6 months term (Z/Z)","$100,000",5.30
-Banks,Kookmin,A,"TD, 9 months term (Z/Z)","$100,000",5.10
 Banks,RaboBank,A,"TD, 1 month term (Z/A)","$1,000",2.30
 Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",3.55
 Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.00
@@ -289,8 +263,8 @@ Non-bank Deposit Takers,First CU,BB,"TD, 9 months term (/)",$500,4.25
 Non-bank Deposit Takers,General Finance,BB,"TD, 3 months term (Q/Q)","$2,000",4.00
 Non-bank Deposit Takers,General Finance,BB,"TD, 4 months term (Q/Q)","$2,000",4.10
 Non-bank Deposit Takers,General Finance,BB,"TD, 5 months term (Q/Q)","$2,000",4.20
-Non-bank Deposit Takers,General Finance,BB,"TD, 6 months term (Q/Q)","$2,000",5.20
-Non-bank Deposit Takers,General Finance,BB,"TD, 9 months term (Q/Q)","$2,000",5.30
+Non-bank Deposit Takers,General Finance,BB,"TD, 6 months term (Q/Q)","$2,000",4.50
+Non-bank Deposit Takers,General Finance,BB,"TD, 9 months term (Q/Q)","$2,000",4.60
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 6 months term (Q/Q)","$5,000",3.75
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 9 months term (Q/Q)","$5,000",3.75
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 3 months term (/)",$1,3.60
