@@ -436,6 +436,7 @@
       tableBody.innerHTML = '';
 
       data.forEach(row => {
+        let asterisk = '';
         const trimmedTitle = rtrim(row['Title'], 's');
 
         const tr = document.createElement('tr');
@@ -461,6 +462,12 @@
         tdAccount.textContent = row['Account type'];
         tr.appendChild(tdAccount);
 
+        // Check if account type contains "Cash Fund" (case insensitive)
+        // https://www.reddit.com/r/PersonalFinanceNZ/comments/1krqqze/comment/n0tu1r0/
+        if (row['Account type'] && row['Account type'].toLowerCase().includes('cash fund')) {
+            asterisk = '*';
+        }
+
         // Min Deposit column
         const tdDeposit = document.createElement('td');
         tdDeposit.textContent = '$' + row['Minimum deposit $'].replace('$', '');
@@ -469,7 +476,7 @@
         // Interest Rate column
         const tdRate = document.createElement('td');
         tdRate.className = 'rate-cell';
-        tdRate.textContent = row['Interest rate %'] + '%';
+        tdRate.textContent = row['Interest rate %'] + '%' + asterisk;
         tr.appendChild(tdRate);
 
         tableBody.appendChild(tr);
@@ -596,6 +603,8 @@
     }
 
   </script>
+
+  <p>*<b>Cash funds</b> show yields, not guaranteed returns. Unlike savings accounts with advertised interest rates, cash fund yields are estimates that can vary significantly and may not reflect your actual returns. During market stress (<a href="https://imgur.com/a/HJhXO61" target="_blank">like COVID-19</a>), some cash funds produced negative returns for extended periods, meaning account balances actually decreased. Consider this uncertainty when comparing cash funds to traditional savings products.</p>
 </body>
 
 </html>
