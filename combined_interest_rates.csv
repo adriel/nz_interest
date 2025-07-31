@@ -235,9 +235,9 @@ Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.20
 Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.50
 Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.50
 Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",3.80
-Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",4.00
+Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",3.90
 Banks,SBS Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",3.90
-Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",4.00
+Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",3.90
 Banks,SBS Bank,BBB,"TD, 9 months term (Z/Z)","$1,000",3.90
 Banks,TSB Bank,BBB+,"TD, 1 month term (Z/S)","$1,000",2.20
 Banks,TSB Bank,BBB+,"TD, 3 months term (Z/S)","$1,000",3.40
@@ -297,5 +297,5 @@ Non-bank Deposit Takers,Xceda Finance,B+,"TD, 9 months term (Q/Q)","$2,500",4.70
 Fund Managers,AMP,,"TD, 3 months term (/)","$1,000",3.45
 Fund Managers,AMP,,"TD, 6 months term (/)","$1,000",3.90
 Fund Managers,AMP,,"TD, 9 months term (/)","$1,000",3.90
-Fund Managers,Go Lend,,"TD, 6 months term (M/M)","$1,000",8.00
+Fund Managers,Go Lend,,"TD, 6 months term (M/M)","$1,000",7.75
 Crown Company,Kiwi Bonds,AA+,"TD, 6 months term (Q/Q)","$1,000",3.00
