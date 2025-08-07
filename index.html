@@ -329,6 +329,7 @@
 
       // Sort by interest rate (highest first)
       const sortedData = sortByInterestRate(originalData);
+      console.log("Sorted Data:", sortedData);
 
       // Extract unique titles for filtering
       const titles = [...new Set(sortedData.map(row => rtrim(row['Title'], 's')))];
