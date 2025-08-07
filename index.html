@@ -329,7 +329,7 @@
 
       // Sort by interest rate (highest first)
       const sortedData = sortByInterestRate(originalData);
-      console.log("Sorted Data:", sortedData);
+      // console.log("Sorted Data:", sortedData);
 
       // Extract unique titles for filtering
       const titles = [...new Set(sortedData.map(row => rtrim(row['Title'], 's')))];
@@ -445,11 +445,14 @@
         tr.className = 'data-row';
         tr.setAttribute('data-title', trimmedTitle);
         tr.setAttribute('data-institution', row['Institution'].toLowerCase());
-
+        
         // Institution column
         const tdInstitution = document.createElement('td');
         const institution = row['Institution'] || '';
-        const isDCS = dcsInstitutions.some(name => name.toLowerCase() === institution.toLowerCase());
+        const accountType = row['Account type'] || '';
+        // Check if it's DCS either by institution name or account type containing "DCS covered"
+        const isDCS = dcsInstitutions.some(name => name.toLowerCase() === institution.toLowerCase()) || 
+              accountType.toLowerCase().includes('dcs covered');
         const dcsTag = isDCS ? '<span class="dcs">DCS</span>' : '';
         tdInstitution.innerHTML = `${institution} ${dcsTag} <span class="institution-type">(${trimmedTitle})</span>`;
         tr.appendChild(tdInstitution);
