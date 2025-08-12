@@ -442,7 +442,7 @@
       const isProMode = urlParams.get('pro') === 'true';
       
       data.forEach(row => {
-        // If not in "pro" mode, skip rows that are not marked "pub"
+        // If not in "pro" mode then skip rows that are not marked "pub"
         if (!isProMode && row['Pub'] !== 'true') {
           return; // Skip this row
         }
