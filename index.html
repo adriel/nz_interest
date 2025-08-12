@@ -437,10 +437,18 @@
       const tableBody = document.getElementById('table-body');
       tableBody.innerHTML = '';
 
+      // Check if ?pro=true is in the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const isProMode = urlParams.get('pro') === 'true';
+      
       data.forEach(row => {
+        // If not in "pro" mode, skip rows that are not marked "pub"
+        if (!isProMode && row['Pub'] !== 'true') {
+          return; // Skip this row
+        }
+        
         let asterisk = '';
         const trimmedTitle = rtrim(row['Title'], 's');
-
         const tr = document.createElement('tr');
         tr.className = 'data-row';
         tr.setAttribute('data-title', trimmedTitle);
@@ -483,7 +491,7 @@
         tdRate.className = 'rate-cell';
         tdRate.textContent = row['Interest rate %'] + '%' + asterisk;
         tr.appendChild(tdRate);
-
+        
         tableBody.appendChild(tr);
       });
     }
