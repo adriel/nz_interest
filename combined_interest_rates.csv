@@ -189,15 +189,15 @@ Banks,China Construction Bank,A,"TD, 4 months term (Z/Z)","$100,000",3.25,true
 Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",3.45,true
 Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",3.70,true
 Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",3.70,true
-Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$2,000",2.20,true
-Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$2,000",3.50,true
-Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",3.85,true
-Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$2,000",3.90,true
-Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$5,000",2.20,true
-Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$5,000",3.50,true
-Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",3.90,true
-Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$5,000",3.90,true
-Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",3.90,true
+Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$2,000",5.05,true
+Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$2,000",3.35,true
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",3.75,true
+Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$2,000",3.75,true
+Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$5,000",2.05,true
+Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$5,000",3.35,true
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$5,000",3.80,true
+Banks,Co-operative Bank,BBB+,"TD, 9 months term (Q/Q)","$5,000",3.75,true
+Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Z)","$5,000",3.80,true
 Banks,Heartland Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.25,true
 Banks,Heartland Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.45,true
 Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.60,true
@@ -216,17 +216,17 @@ Banks,ICBC,A,"TD, 4 months term (Z/Z)","$10,000",3.75,true
 Banks,ICBC,A,"TD, 5 months term (Z/Z)","$10,000",3.80,true
 Banks,ICBC,A,"TD, 6 months term (Z/Z)","$10,000",4.05,true
 Banks,ICBC,A,"TD, 9 months term (Z/Z)","$10,000",4.00,true
-Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.50,true
-Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$1,000",3.55,true
-Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",3.75,true
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.35,true
+Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$1,000",3.40,true
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",3.65,true
 Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$1,000",4.10,true
-Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$1,000",3.90,true
-Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$5,000",2.20,true
-Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$5,000",3.50,true
-Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$5,000",3.55,true
-Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$5,000",3.75,true
+Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$1,000",3.75,true
+Banks,Kiwibank,A1,"TD, 1 month term (Z/Z)","$5,000",2.05,true
+Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$5,000",3.35,true
+Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$5,000",3.40,true
+Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$5,000",3.65,true
 Banks,Kiwibank,A1,"TD, 6 months term (Z/Z)","$5,000",4.10,true
-Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$5,000",3.90,true
+Banks,Kiwibank,A1,"TD, 9 months term (Z/Z)","$5,000",3.75,true
 Banks,RaboBank,A,"TD, 1 month term (Z/A)","$1,000",2.30,true
 Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",3.55,true
 Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.00,true
@@ -357,17 +357,17 @@ Banks,China Construction Bank,A,"TD, 2 years term (Z/Z)","$100,000",3.85,false
 Banks,China Construction Bank,A,"TD, 3 years term (Z/Z)","$100,000",3.90,false
 Banks,China Construction Bank,A,"TD, 4 years term (Z/Z)","$100,000",4.00,false
 Banks,China Construction Bank,A,"TD, 5 years term (Z/Z)","$100,000",4.10,false
-Banks,Co-operative Bank,BBB+,"TD, 12 month term (Q/Q)","$2,000",3.75,false
-Banks,Co-operative Bank,BBB+,"TD, 18 months term (Q/Q)","$2,000",3.90,false
-Banks,Co-operative Bank,BBB+,"TD, 2 years term (Q/Q)","$2,000",4.00,false
-Banks,Co-operative Bank,BBB+,"TD, 3 years term (Q/Q)","$2,000",4.10,false
-Banks,Co-operative Bank,BBB+,"TD, 4 years term (Q/Q)","$2,000",4.20,false
-Banks,Co-operative Bank,BBB+,"TD, 12 month term (Q/Q)","$5,000",3.85,false
-Banks,Co-operative Bank,BBB+,"TD, 18 months term (Q/Q)","$5,000",3.90,false
-Banks,Co-operative Bank,BBB+,"TD, 2 years term (Q/Q)","$5,000",4.00,false
-Banks,Co-operative Bank,BBB+,"TD, 3 years term (Q/Q)","$5,000",4.10,false
-Banks,Co-operative Bank,BBB+,"TD, 4 years term (Q/Q)","$5,000",4.20,false
-Banks,Co-operative Bank,BBB+,"TD, 12 month term (Z/Z)","$5,000",3.85,false
+Banks,Co-operative Bank,BBB+,"TD, 12 month term (Q/Q)","$2,000",3.65,false
+Banks,Co-operative Bank,BBB+,"TD, 18 months term (Q/Q)","$2,000",3.75,false
+Banks,Co-operative Bank,BBB+,"TD, 2 years term (Q/Q)","$2,000",3.80,false
+Banks,Co-operative Bank,BBB+,"TD, 3 years term (Q/Q)","$2,000",4.05,false
+Banks,Co-operative Bank,BBB+,"TD, 4 years term (Q/Q)","$2,000",4.15,false
+Banks,Co-operative Bank,BBB+,"TD, 12 month term (Q/Q)","$5,000",3.75,false
+Banks,Co-operative Bank,BBB+,"TD, 18 months term (Q/Q)","$5,000",3.75,false
+Banks,Co-operative Bank,BBB+,"TD, 2 years term (Q/Q)","$5,000",3.80,false
+Banks,Co-operative Bank,BBB+,"TD, 3 years term (Q/Q)","$5,000",4.05,false
+Banks,Co-operative Bank,BBB+,"TD, 4 years term (Q/Q)","$5,000",4.15,false
+Banks,Co-operative Bank,BBB+,"TD, 12 month term (Z/Z)","$5,000",3.75,false
 Banks,Heartland Bank,BBB,"TD, 12 month term (Q/Q)","$1,000",3.85,false
 Banks,Heartland Bank,BBB,"TD, 18 months term (Q/Q)","$1,000",3.90,false
 Banks,Heartland Bank,BBB,"TD, 2 years term (Q/Q)","$1,000",4.00,false
@@ -387,13 +387,13 @@ Banks,ICBC,A,"TD, 2 years term (Z/Z)","$10,000",4.05,false
 Banks,ICBC,A,"TD, 3 years term (Z/Z)","$10,000",4.10,false
 Banks,ICBC,A,"TD, 4 years term (Z/Z)","$10,000",4.25,false
 Banks,ICBC,A,"TD, 5 years term (Z/Z)","$10,000",4.25,false
-Banks,Kiwibank,A1,"TD, 12 month term (M/M)","$1,000",3.80,false
-Banks,Kiwibank,A1,"TD, 2 years term (M/M)","$1,000",3.90,false
+Banks,Kiwibank,A1,"TD, 12 month term (M/M)","$1,000",3.70,false
+Banks,Kiwibank,A1,"TD, 2 years term (M/M)","$1,000",3.80,false
 Banks,Kiwibank,A1,"TD, 3 years term (M/M)","$1,000",4.00,false
 Banks,Kiwibank,A1,"TD, 4 years term (M/M)","$1,000",4.10,false
 Banks,Kiwibank,A1,"TD, 5 years term (M/M)","$1,000",4.20,false
-Banks,Kiwibank,A1,"TD, 12 month term (Z/Z)","$5,000",3.80,false
-Banks,Kiwibank,A1,"TD, 2 years term (Z/Z)","$5,000",3.90,false
+Banks,Kiwibank,A1,"TD, 12 month term (Z/Z)","$5,000",3.70,false
+Banks,Kiwibank,A1,"TD, 2 years term (Z/Z)","$5,000",3.80,false
 Banks,Kiwibank,A1,"TD, 3 years term (Z/Z)","$5,000",4.00,false
 Banks,Kiwibank,A1,"TD, 4 years term (Z/Z)","$5,000",4.10,false
 Banks,Kiwibank,A1,"TD, 5 years term (Z/Z)","$5,000",4.20,false
