@@ -248,9 +248,9 @@ Banks,TSB Bank,BBB+,"TD, 9 months term (Z/S)","$1,000",3.90,true
 Banks,Westpac,AA-,"TD, 1 month term (Q/Q)","$5,000",2.05,true
 Banks,Westpac,AA-,"TD, 3 months term (Q/Q)","$5,000",3.45,true
 Banks,Westpac,AA-,"TD, 4 months term (Q/Q)","$5,000",3.45,true
-Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",3.70,true
-Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",3.90,true
-Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",3.85,true
+Banks,Westpac,AA-,"TD, 5 months term (Q/Q)","$5,000",3.65,true
+Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",3.75,true
+Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",3.70,true
 Banks,Westpac,AA-,"TD, 8 months term (Z/Z)","$5,000",3.90,true
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.30,true
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.50,true
@@ -424,10 +424,10 @@ Banks,TSB Bank,BBB+,"TD, 2 years term (S/S)","$1,000",4.00,false
 Banks,TSB Bank,BBB+,"TD, 3 years term (S/S)","$1,000",4.10,false
 Banks,TSB Bank,BBB+,"TD, 4 years term (S/S)","$1,000",4.20,false
 Banks,TSB Bank,BBB+,"TD, 5 years term (S/S)","$1,000",4.20,false
-Banks,Westpac,AA-,"TD, 12 month term (Q/Q)","$5,000",3.80,false
-Banks,Westpac,AA-,"TD, 18 months term (Q/Q)","$5,000",3.90,false
-Banks,Westpac,AA-,"TD, 2 years term (Q/Q)","$5,000",4.00,false
-Banks,Westpac,AA-,"TD, 3 years term (Q/Q)","$5,000",4.10,false
+Banks,Westpac,AA-,"TD, 12 month term (Q/Q)","$5,000",3.70,false
+Banks,Westpac,AA-,"TD, 18 months term (Q/Q)","$5,000",3.75,false
+Banks,Westpac,AA-,"TD, 2 years term (Q/Q)","$5,000",3.85,false
+Banks,Westpac,AA-,"TD, 3 years term (Q/Q)","$5,000",4.00,false
 Banks,Westpac,AA-,"TD, 4 years term (Q/Q)","$5,000",4.10,false
 Banks,Westpac,AA-,"TD, 5 years term (Q/Q)","$5,000",4.10,false
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 12 month term (S/S)","$1,000",3.95,false
