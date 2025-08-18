@@ -276,12 +276,12 @@ Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 1 month term (/)","$5,000",
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 months term (/)","$5,000",3.25,true
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000",3.75,true
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 9 months term (/)","$5,000",3.75,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 3 months term (/)",$500,3.40,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 4 months term (/)",$500,3.50,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,3.75,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 6 months term (/)",$500,3.90,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 9 months term (/)",$500,3.85,true
-Non-bank Deposit Takers,Police CU,BB+,"TD, 8 months term (/)",$500,3.90,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 3 months term (/)",$500,3.25,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 4 months term (/)",$500,3.35,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 5 months term (/)",$500,3.60,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 6 months term (/)",$500,3.75,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 9 months term (/)",$500,3.70,true
+Non-bank Deposit Takers,Police CU,BB+,"TD, 8 months term (/)",$500,3.75,true
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 1 month term (/)","$1,000",1.95,true
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 3 months term (/)","$1,000",3.20,true
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 4 months term (/)","$1,000",3.30,true
@@ -474,7 +474,7 @@ Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 12 month term (/)","$5,000"
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 18 months term (/)","$5,000",3.80,false
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 2 years term (/)","$5,000",3.70,false
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 years term (/)","$5,000",4.00,false
-Non-bank Deposit Takers,Police CU,BB+,"TD, 12 month term (/)",$500,3.80,false
+Non-bank Deposit Takers,Police CU,BB+,"TD, 12 month term (/)",$500,3.70,false
 Non-bank Deposit Takers,Police CU,BB+,"TD, 18 months term (/)",$500,3.80,false
 Non-bank Deposit Takers,Police CU,BB+,"TD, 2 years term (/)",$500,3.90,false
 Non-bank Deposit Takers,UnityMoney,BB,"TD, 12 month term (/)","$1,000",3.60,false
