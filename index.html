@@ -160,7 +160,7 @@
       <input type="text" id="institution-search" placeholder="Filter by institution...">
     </div>
     <div class="search-container">
-      <input type="number" id="deposit-filter" placeholder="Max deposit...">
+      <input type="text" id="deposit-filter" placeholder="Max deposit or term range (e.g. 1-12)...">
     </div>
     <div id="loading" class="loading">Loading data...</div>
   </div>
@@ -472,7 +472,13 @@
 
         // Account Type column
         const tdAccount = document.createElement('td');
-        tdAccount.textContent = row['Account type'];
+        const accountText = row['Account type'];
+        // Check if contains "month", if yes make it bold
+        if (accountText && (accountText.toLowerCase().includes('year') || accountText.toLowerCase().includes('years'))) {
+            tdAccount.innerHTML = `<b>${accountText}</b>`;
+        } else {
+            tdAccount.textContent = accountText;
+        }
         tr.appendChild(tdAccount);
 
         // Check if account type contains "Cash Fund" (case insensitive)
@@ -550,6 +556,31 @@
       
     }
 
+    // Function to extract numeric values and terms from account type
+    function extractTermFromAccountType(accountType) {
+      if (!accountType) return null;
+      
+      // Look for patterns like "TD, 6 month" or "TD, 2 year" etc.
+      const monthMatch = accountType.match(/(\d+)\s*month/i);
+      const yearMatch = accountType.match(/(\d+)\s*year/i);
+      
+      if (monthMatch) {
+        return parseInt(monthMatch[1]);
+      } else if (yearMatch) {
+        return parseInt(yearMatch[1]) * 12; // Convert years to months
+      }
+      
+      return null;
+    }
+
+    // Function to check if account type matches the term range
+    function matchesTermRange(accountType, minTerm, maxTerm) {
+      const termInMonths = extractTermFromAccountType(accountType);
+      if (termInMonths === null) return false;
+      
+      return termInMonths >= minTerm && termInMonths <= maxTerm;
+    }
+
     // Create a new function to apply all filters
     function applyAllFilters() {
       // Get current checked checkbox values
@@ -561,14 +592,14 @@
       // Get current search text
       const searchText = document.getElementById('institution-search').value.toLowerCase();
 
-      // Get current max min deposit value
-      const maxMinDeposit = document.getElementById('deposit-filter').value;
+      // Get current deposit filter value
+      const depositFilterValue = document.getElementById('deposit-filter').value;
 
       // Apply all filters
-      applyFilters(checkedValues, searchText, maxMinDeposit);
+      applyFilters(checkedValues, searchText, depositFilterValue);
     }
     
-    function applyFilters(checkedValues, searchText = '', maxMinDeposit = '') {
+    function applyFilters(checkedValues, searchText = '', depositFilterValue = '') {
       const rows = document.querySelectorAll(".data-row");
 
       rows.forEach(row => {
@@ -597,15 +628,30 @@
             }
         }
 
-        // Handle deposit filtering
-        let meetsDepositRequirement = true;
-        if (maxMinDeposit !== '') {
-          const minDepositText = row.children[3].textContent.replace('$', '').replace(/,/g, '');
-          const minDepositValue = parseFloat(minDepositText);
-          meetsDepositRequirement = isNaN(minDepositValue) ? true : minDepositValue <= parseFloat(maxMinDeposit);
+        // Handle deposit/term filtering
+        let meetsFilterRequirement = true;
+        if (depositFilterValue !== '') {
+          // Check if input contains a dash (range filter)
+          if (depositFilterValue.includes('-')) {
+            // Term range filtering
+            const rangeParts = depositFilterValue.split('-');
+            if (rangeParts.length === 2) {
+              const minTerm = parseInt(rangeParts[0].trim());
+              const maxTerm = parseInt(rangeParts[1].trim());
+              
+              if (!isNaN(minTerm) && !isNaN(maxTerm)) {
+                meetsFilterRequirement = matchesTermRange(accountType, minTerm, maxTerm);
+              }
+            }
+          } else {
+            // Regular deposit amount filtering
+            const minDepositText = row.children[3].textContent.replace('$', '').replace(/,/g, '');
+            const minDepositValue = parseFloat(minDepositText);
+            meetsFilterRequirement = isNaN(minDepositValue) ? true : minDepositValue <= parseFloat(depositFilterValue);
+          }
         }
 
-        if (shouldHideNoticeSaver || shouldHideTD || !matchesSearch || !meetsDepositRequirement) {
+        if (shouldHideNoticeSaver || shouldHideTD || !matchesSearch || !meetsFilterRequirement) {
           row.style.display = "none";
         } else if (checkedValues.includes(row.getAttribute("data-title"))) {
           row.style.display = "table-row";
