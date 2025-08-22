@@ -16,7 +16,7 @@ Banks,Heartland Bank,BBB,Direct Call,$1,2.25,true
 Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.15,true
 Banks,Heartland Bank,BBB,Notice Saver 90 days,$0,3.50,true
 Banks,ICBC,A,Savings,$1,2.00,true
-Banks,ICBC,A,Smart Saver,$1,3.15,true
+Banks,ICBC,A,Smart Saver,$1,2.75,true
 Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.30,true
 Banks,Kiwibank,A1,Notice Saver 90 days,$1,2.85,true
 Banks,Kiwibank,A1,Online Call,$1,2.00,true
@@ -28,7 +28,7 @@ Banks,RaboBank,A,PremiumSaver - bonus,$1,1.75,true
 Banks,RaboBank,A,"PremiumSaver - potential rate - to $100,000",$1,3.00,true
 Banks,SBS Bank,BBB,i-Save,$1,0.40,true
 Banks,SBS Bank,BBB,Prospector Call,$1,0.35,true
-Banks,TSB Bank,BBB+,WebSaver,$1,1.95,true
+Banks,TSB Bank,BBB+,WebSaver,$1,1.70,true
 Banks,Westpac,AA-,Notice Saver 32 days,$1,3.00,true
 Banks,Westpac,AA-,Simple Saver,$1,0.25,true
 Non-bank Deposit Takers,Christian Savings,BB+,Call,$1,1.50,true
@@ -58,12 +58,12 @@ Non-bank Deposit Takers,UnityMoney,BB,Christmas Saver,$1,2.30,true
 Non-bank Deposit Takers,Wairarapa Bldg Society,BB+,Call,$500,1.75,true
 Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,2.75,true
 Non-bank Deposit Takers,Xceda Finance,B+,Notice Saver 90 days,$100,3.75,true
-Fund Managers,Booster,,Savvy,$1,3.25,true
+Fund Managers,Booster,,Savvy,$1,3.00,true
 Fund Managers,Dosh,,Strives - DCS covered,$1,3.10,true
 Fund Managers,Go Lend,,On Call account,$1,3.00,true
-Fund Managers,Kernel Wealth,,Smart Saver,$1,2.80,true
+Fund Managers,Kernel Wealth,,Smart Saver,$1,2.55,true
 Fund Managers,Sharesies,,Save - DCS covered,$1,2.35,true
-Fund Managers,Squirrel Money,,On Call - DCS covered,$0,3.00,true
+Fund Managers,Squirrel Money,,On Call - DCS covered,$0,2.75,true
 Fund Managers,Wedge Money,AA,Call,$1,3.50,true
 Brokers,ASB Securities,,Cash Management Trust,"$100,000",0.00,true
 Brokers,ASB Securities,,Cash Management Trust,"$250,000",0.00,true
@@ -100,7 +100,7 @@ Banks,Heartland Bank,BBB,Direct Call,$1,2.25,true
 Banks,Heartland Bank,BBB,Notice Saver 32 days,$1,3.15,true
 Banks,Heartland Bank,BBB,Notice Saver 90 days,$1,3.50,true
 Banks,ICBC,A,Savings,$1,2.00,true
-Banks,ICBC,A,Smart Saver,$1,3.15,true
+Banks,ICBC,A,Smart Saver,$1,2.75,true
 Banks,Kiwibank,A1,Online Call,$1,2.00,true
 Banks,Kiwibank,A1,Notice Saver 32 days,$1,2.30,true
 Banks,Kiwibank,A1,Notice Saver 90 days,$1,2.85,true
@@ -111,7 +111,7 @@ Banks,RaboBank,A,PremiumSaver - base,$1,1.25,true
 Banks,RaboBank,A,PremiumSaver - bonus,$1,1.75,true
 Banks,RaboBank,A,"PremiumSaver - potential rate - to $100,000",$1,3.00,true
 Banks,SBS Bank,BBB,i-Save,$1,0.40,true
-Banks,TSB Bank,BBB+,WebSaver,$1,1.95,true
+Banks,TSB Bank,BBB+,WebSaver,$1,1.70,true
 Banks,Westpac,AA-,Westpac Bonus Saver - base rate,$1,0.25,true
 Banks,Westpac,AA-,Westpac Bonus Saver - bonus rate,$1,1.75,true
 Banks,Westpac,AA-,Westpac Bonus Saver - potential rate,$1,2.00,true
@@ -120,12 +120,12 @@ Non-bank Deposit Takers,Nelson Bldg Society,BB+,Call,$1,1.50,true
 Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$1,000",0.55,true
 Non-bank Deposit Takers,UnityMoney,BB,Online Saver,"$20,000",1.20,true
 Non-bank Deposit Takers,Xceda Finance,B+,Super Saver,$100,2.75,true
-Fund Managers,Booster,,Savvy,$1,3.25,true
+Fund Managers,Booster,,Savvy,$1,3.00,true
 Fund Managers,Dosh,,Strives - DCS covered,$1,3.10,true
 Fund Managers,Go Lend,,On Call account,$1,3.00,true
-Fund Managers,Kernel Wealth,,Smart Saver,$1,2.80,true
+Fund Managers,Kernel Wealth,,Smart Saver,$1,2.55,true
 Fund Managers,Sharesies,,Save - DCS covered,$1,2.35,true
-Fund Managers,Squirrel Money,,On Call - DCS covered,$0,3.00,true
+Fund Managers,Squirrel Money,,On Call - DCS covered,$0,2.75,true
 Fund Managers,Wedge Money,AA,Call,$1,3.50,true
 Fund Managers,Debut,,Universal Interest,$1,3.15,true
 Fund Managers,Squirrel Money,,On Call,$0,2.75,true
@@ -269,9 +269,9 @@ Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 6 months term (Q/Q)","$5,000"
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 9 months term (Q/Q)","$5,000",2.75,true
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 3 months term (/)",$1,3.50,true
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 6 months term (/)",$1,4.00,true
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 months term (Q/Q)","$5,000",3.70,true
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 6 months term (Q/Q)","$5,000",4.50,true
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 9 months term (Q/Q)","$5,000",4.55,true
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 months term (Q/Q)","$5,000",3.45,true
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 6 months term (Q/Q)","$5,000",4.20,true
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 9 months term (Q/Q)","$5,000",4.25,true
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 1 month term (/)","$5,000",1.95,true
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 3 months term (/)","$5,000",3.25,true
 Non-bank Deposit Takers,Nelson Bldg Society,BB+,"TD, 6 months term (/)","$5,000",3.75,true
@@ -458,12 +458,12 @@ Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 4 years term (Q/Q)","$5,000",
 Non-bank Deposit Takers,Gold Band Finance,BB-,"TD, 5 years term (Q/Q)","$5,000",4.35,false
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 12 month term (/)",$1,3.95,false
 Non-bank Deposit Takers,Heretaunga Bldg Socy,,"TD, 2 years term (/)",$1,4.05,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 12 month term (Q/Q)","$5,000",4.65,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 18 months term (Q/Q)","$5,000",4.65,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 2 years term (Q/Q)","$5,000",4.55,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 years term (Q/Q)","$5,000",4.35,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 4 years term (Q/Q)","$5,000",4.35,false
-Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 5 years term (Q/Q)","$5,000",4.35,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 12 month term (Q/Q)","$5,000",4.40,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 18 months term (Q/Q)","$5,000",4.40,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 2 years term (Q/Q)","$5,000",4.35,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 3 years term (Q/Q)","$5,000",4.30,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 4 years term (Q/Q)","$5,000",4.30,false
+Non-bank Deposit Takers,Liberty Financial,BBB,"TD, 5 years term (Q/Q)","$5,000",4.30,false
 Non-bank Deposit Takers,Mutual Credit Finance,B+,"TD, 12 month term (Q/Q)","$5,000",4.25,false
 Non-bank Deposit Takers,Mutual Credit Finance,B+,"TD, 18 months term (Q/Q)","$5,000",4.25,false
 Non-bank Deposit Takers,Mutual Credit Finance,B+,"TD, 2 years term (Q/Q)","$5,000",4.35,false
