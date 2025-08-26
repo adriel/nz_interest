@@ -204,18 +204,18 @@ Banks,Heartland Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.60,true
 Banks,Heartland Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",3.80,true
 Banks,Heartland Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",3.90,true
 Banks,Heartland Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",3.90,true
-Banks,ICBC,A,"TD, 1 month term (Z/Z)","$5,000",2.45,true
-Banks,ICBC,A,"TD, 3 months term (Z/Z)","$5,000",3.55,true
-Banks,ICBC,A,"TD, 4 months term (Z/Z)","$5,000",3.65,true
-Banks,ICBC,A,"TD, 5 months term (Z/Z)","$5,000",3.70,true
-Banks,ICBC,A,"TD, 6 months term (Z/Z)","$5,000",3.95,true
-Banks,ICBC,A,"TD, 9 months term (Z/Z)","$5,000",3.90,true
-Banks,ICBC,A,"TD, 1 month term (Z/Z)","$10,000",2.55,true
-Banks,ICBC,A,"TD, 3 months term (Z/Z)","$10,000",3.65,true
-Banks,ICBC,A,"TD, 4 months term (Z/Z)","$10,000",3.75,true
-Banks,ICBC,A,"TD, 5 months term (Z/Z)","$10,000",3.80,true
-Banks,ICBC,A,"TD, 6 months term (Z/Z)","$10,000",4.05,true
-Banks,ICBC,A,"TD, 9 months term (Z/Z)","$10,000",4.00,true
+Banks,ICBC,A,"TD, 1 month term (Z/Z)","$5,000",2.15,true
+Banks,ICBC,A,"TD, 3 months term (Z/Z)","$5,000",3.40,true
+Banks,ICBC,A,"TD, 4 months term (Z/Z)","$5,000",3.45,true
+Banks,ICBC,A,"TD, 5 months term (Z/Z)","$5,000",3.60,true
+Banks,ICBC,A,"TD, 6 months term (Z/Z)","$5,000",3.85,true
+Banks,ICBC,A,"TD, 9 months term (Z/Z)","$5,000",3.70,true
+Banks,ICBC,A,"TD, 1 month term (Z/Z)","$10,000",2.25,true
+Banks,ICBC,A,"TD, 3 months term (Z/Z)","$10,000",3.50,true
+Banks,ICBC,A,"TD, 4 months term (Z/Z)","$10,000",3.55,true
+Banks,ICBC,A,"TD, 5 months term (Z/Z)","$10,000",3.70,true
+Banks,ICBC,A,"TD, 6 months term (Z/Z)","$10,000",3.95,true
+Banks,ICBC,A,"TD, 9 months term (Z/Z)","$10,000",3.80,true
 Banks,Kiwibank,A1,"TD, 3 months term (Z/Z)","$1,000",3.35,true
 Banks,Kiwibank,A1,"TD, 4 months term (Z/Z)","$1,000",3.40,true
 Banks,Kiwibank,A1,"TD, 5 months term (Z/Z)","$1,000",3.65,true
@@ -253,9 +253,9 @@ Banks,Westpac,AA-,"TD, 6 months term (Q/Q)","$5,000",3.75,true
 Banks,Westpac,AA-,"TD, 9 months term (Q/Q)","$5,000",3.70,true
 Banks,Westpac,AA-,"TD, 8 months term (Z/Z)","$5,000",3.80,true
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 1 month term (S/S)","$1,000",2.30,true
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.50,true
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",4.00,true
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",3.95,true
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 months term (S/S)","$1,000",3.35,true
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 6 months term (S/S)","$1,000",3.85,true
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 9 months term (S/S)","$1,000",3.80,true
 Non-bank Deposit Takers,Finance Direct,,"TD, 6 months term (Q/Q)","$1,000",3.75,true
 Non-bank Deposit Takers,First CU,BB,"TD, 3 months term (/)",$500,4.00,true
 Non-bank Deposit Takers,First CU,BB,"TD, 6 months term (/)",$500,4.25,true
@@ -375,15 +375,15 @@ Banks,Heartland Bank,BBB,"TD, 3 years term (Q/Q)","$1,000",4.15,false
 Banks,Heartland Bank,BBB,"TD, 4 years term (Q/Q)","$1,000",4.25,false
 Banks,Heartland Bank,BBB,"TD, 5 years term (Q/Q)","$1,000",4.35,false
 Banks,Heartland Bank,BBB,"TD, 15 months term (Z/Z)","$1,000",3.85,false
-Banks,ICBC,A,"TD, 12 month term (Z/Z)","$5,000",3.85,false
-Banks,ICBC,A,"TD, 18 months term (Z/Z)","$5,000",3.85,false
-Banks,ICBC,A,"TD, 2 years term (Z/Z)","$5,000",3.95,false
+Banks,ICBC,A,"TD, 12 month term (Z/Z)","$5,000",3.75,false
+Banks,ICBC,A,"TD, 18 months term (Z/Z)","$5,000",3.75,false
+Banks,ICBC,A,"TD, 2 years term (Z/Z)","$5,000",3.85,false
 Banks,ICBC,A,"TD, 3 years term (Z/Z)","$5,000",4.00,false
 Banks,ICBC,A,"TD, 4 years term (Z/Z)","$5,000",4.15,false
 Banks,ICBC,A,"TD, 5 years term (Z/Z)","$5,000",4.15,false
-Banks,ICBC,A,"TD, 12 month term (Z/Z)","$10,000",3.95,false
-Banks,ICBC,A,"TD, 18 months term (Z/Z)","$10,000",3.95,false
-Banks,ICBC,A,"TD, 2 years term (Z/Z)","$10,000",4.05,false
+Banks,ICBC,A,"TD, 12 month term (Z/Z)","$10,000",3.85,false
+Banks,ICBC,A,"TD, 18 months term (Z/Z)","$10,000",3.85,false
+Banks,ICBC,A,"TD, 2 years term (Z/Z)","$10,000",3.95,false
 Banks,ICBC,A,"TD, 3 years term (Z/Z)","$10,000",4.10,false
 Banks,ICBC,A,"TD, 4 years term (Z/Z)","$10,000",4.25,false
 Banks,ICBC,A,"TD, 5 years term (Z/Z)","$10,000",4.25,false
@@ -430,9 +430,9 @@ Banks,Westpac,AA-,"TD, 2 years term (Q/Q)","$5,000",3.85,false
 Banks,Westpac,AA-,"TD, 3 years term (Q/Q)","$5,000",4.00,false
 Banks,Westpac,AA-,"TD, 4 years term (Q/Q)","$5,000",4.10,false
 Banks,Westpac,AA-,"TD, 5 years term (Q/Q)","$5,000",4.10,false
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 12 month term (S/S)","$1,000",3.95,false
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 18 months term (S/S)","$1,000",4.00,false
-Non-bank Deposit Takers,Christian Savings,BB+,"TD, 2 years term (S/S)","$1,000",4.05,false
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 12 month term (S/S)","$1,000",3.80,false
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 18 months term (S/S)","$1,000",3.85,false
+Non-bank Deposit Takers,Christian Savings,BB+,"TD, 2 years term (S/S)","$1,000",3.90,false
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 3 years term (S/S)","$1,000",4.15,false
 Non-bank Deposit Takers,Christian Savings,BB+,"TD, 5 years term (S/S)","$1,000",4.30,false
 Non-bank Deposit Takers,Finance Direct,,"TD, 12 month term (Q/Q)","$1,000",4.10,false
