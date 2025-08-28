@@ -8,7 +8,7 @@ Banks,Bank of Baroda,BBB-,Savings,"$1,000",1.50,true
 Banks,Bank of China,A,Online Saver,"$10,000",1.85,true
 Banks,Bank of India,BB+,Star super savings,"$1,000",0.10,true
 Banks,Bank of India,BB+,Star savings,"$1,000",0.10,true
-Banks,China Construction Bank,A,Saving,"$1,000",1.50,true
+Banks,China Construction Bank,A,Saving,"$1,000",1.00,true
 Banks,Co-operative Bank,BBB+,Online Account,$1,1.20,true
 Banks,Co-operative Bank,BBB+,Smile On Call,"$4,000",0.30,true
 Banks,Heartland Bank,BBB,Digital Saver,$1,2.75,true
@@ -186,9 +186,9 @@ Banks,Bank of India,BB+,"TD, 9 months term (M/Y)","$5,000",3.70,true
 Banks,China Construction Bank,A,"TD, 1 month term (Z/Z)","$100,000",2.20,true
 Banks,China Construction Bank,A,"TD, 3 months term (Z/Z)","$100,000",3.00,true
 Banks,China Construction Bank,A,"TD, 4 months term (Z/Z)","$100,000",3.25,true
-Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",3.45,true
-Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",3.70,true
-Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",3.70,true
+Banks,China Construction Bank,A,"TD, 5 months term (Z/Z)","$100,000",3.40,true
+Banks,China Construction Bank,A,"TD, 6 months term (Z/Z)","$100,000",3.50,true
+Banks,China Construction Bank,A,"TD, 9 months term (Z/Z)","$100,000",3.50,true
 Banks,Co-operative Bank,BBB+,"TD, 1 month term (Q/Q)","$2,000",2.05,true
 Banks,Co-operative Bank,BBB+,"TD, 3 months term (Q/Q)","$2,000",3.35,true
 Banks,Co-operative Bank,BBB+,"TD, 6 months term (Q/Q)","$2,000",3.75,true
@@ -351,12 +351,12 @@ Banks,Bank of India,BB+,"TD, 2 years term (Q/Q)","$5,000",3.85,false
 Banks,Bank of India,BB+,"TD, 3 years term (Q/Q)","$5,000",3.85,false
 Banks,Bank of India,BB+,"TD, 4 years term (Q/Q)","$5,000",3.85,false
 Banks,Bank of India,BB+,"TD, 5 years term (Q/Q)","$5,000",3.85,false
-Banks,China Construction Bank,A,"TD, 12 month term (Z/Z)","$100,000",3.70,false
-Banks,China Construction Bank,A,"TD, 18 months term (Z/Z)","$100,000",3.75,false
-Banks,China Construction Bank,A,"TD, 2 years term (Z/Z)","$100,000",3.85,false
-Banks,China Construction Bank,A,"TD, 3 years term (Z/Z)","$100,000",3.90,false
-Banks,China Construction Bank,A,"TD, 4 years term (Z/Z)","$100,000",4.00,false
-Banks,China Construction Bank,A,"TD, 5 years term (Z/Z)","$100,000",4.10,false
+Banks,China Construction Bank,A,"TD, 12 month term (Z/Z)","$100,000",3.50,false
+Banks,China Construction Bank,A,"TD, 18 months term (Z/Z)","$100,000",3.60,false
+Banks,China Construction Bank,A,"TD, 2 years term (Z/Z)","$100,000",3.65,false
+Banks,China Construction Bank,A,"TD, 3 years term (Z/Z)","$100,000",3.75,false
+Banks,China Construction Bank,A,"TD, 4 years term (Z/Z)","$100,000",3.90,false
+Banks,China Construction Bank,A,"TD, 5 years term (Z/Z)","$100,000",3.90,false
 Banks,Co-operative Bank,BBB+,"TD, 12 month term (Q/Q)","$2,000",3.65,false
 Banks,Co-operative Bank,BBB+,"TD, 18 months term (Q/Q)","$2,000",3.75,false
 Banks,Co-operative Bank,BBB+,"TD, 2 years term (Q/Q)","$2,000",3.80,false
