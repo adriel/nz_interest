@@ -231,14 +231,14 @@ Banks,RaboBank,A,"TD, 1 month term (Z/A)","$1,000",2.30,true
 Banks,RaboBank,A,"TD, 3 months term (Z/A)","$1,000",3.50,true
 Banks,RaboBank,A,"TD, 6 months term (Z/A)","$1,000",4.00,true
 Banks,RaboBank,A,"TD, 9 months term (Z/A)","$1,000",3.85,true
-Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.20,true
-Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.50,true
-Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.50,true
-Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",3.80,true
-Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",3.90,true
-Banks,SBS Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",3.90,true
-Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",3.90,true
-Banks,SBS Bank,BBB,"TD, 9 months term (Z/Z)","$1,000",3.90,true
+Banks,SBS Bank,BBB,"TD, 1 month term (Q/Q)","$1,000",2.05,true
+Banks,SBS Bank,BBB,"TD, 3 months term (Q/Q)","$1,000",3.40,true
+Banks,SBS Bank,BBB,"TD, 4 months term (Q/Q)","$1,000",3.35,true
+Banks,SBS Bank,BBB,"TD, 5 months term (Q/Q)","$1,000",3.65,true
+Banks,SBS Bank,BBB,"TD, 6 months term (Q/Q)","$1,000",3.80,true
+Banks,SBS Bank,BBB,"TD, 9 months term (Q/Q)","$1,000",3.75,true
+Banks,SBS Bank,BBB,"TD, 6 months term (Z/Z)","$1,000",3.80,true
+Banks,SBS Bank,BBB,"TD, 9 months term (Z/Z)","$1,000",3.75,true
 Banks,TSB Bank,BBB+,"TD, 1 month term (Z/S)","$1,000",2.05,true
 Banks,TSB Bank,BBB+,"TD, 3 months term (Z/S)","$1,000",3.35,true
 Banks,TSB Bank,BBB+,"TD, 4 months term (Z/S)","$1,000",3.35,true
@@ -411,12 +411,12 @@ Banks,RaboBank,A,"TD, 3 years term (M/M)","$1,000",3.93,false
 Banks,RaboBank,A,"TD, 4 years term (M/M)","$1,000",4.07,false
 Banks,RaboBank,A,"TD, 5 years term (M/M)","$1,000",4.12,false
 Banks,SBS Bank,BBB,"TD, 12 month term (Q/Q)","$1,000",3.85,false
-Banks,SBS Bank,BBB,"TD, 18 months term (Q/Q)","$1,000",3.90,false
-Banks,SBS Bank,BBB,"TD, 2 years term (Q/Q)","$1,000",3.95,false
+Banks,SBS Bank,BBB,"TD, 18 months term (Q/Q)","$1,000",3.85,false
+Banks,SBS Bank,BBB,"TD, 2 years term (Q/Q)","$1,000",3.85,false
 Banks,SBS Bank,BBB,"TD, 3 years term (Q/Q)","$1,000",4.00,false
 Banks,SBS Bank,BBB,"TD, 12 month term (Z/Z)","$1,000",3.85,false
-Banks,SBS Bank,BBB,"TD, 18 months term (Z/Z)","$1,000",3.90,false
-Banks,SBS Bank,BBB,"TD, 2 years term (Z/Z)","$1,000",3.95,false
+Banks,SBS Bank,BBB,"TD, 18 months term (Z/Z)","$1,000",3.85,false
+Banks,SBS Bank,BBB,"TD, 2 years term (Z/Z)","$1,000",3.85,false
 Banks,SBS Bank,BBB,"TD, 3 years term (Z/Z)","$1,000",4.00,false
 Banks,TSB Bank,BBB+,"TD, 12 month term (S/S)","$1,000",3.70,false
 Banks,TSB Bank,BBB+,"TD, 18 months term (S/S)","$1,000",3.80,false
